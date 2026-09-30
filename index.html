@@ -1037,6 +1037,7 @@
         const rightEdge = scroll.getBoundingClientRect().right;
         scroll.querySelectorAll(".activity-label").forEach((label) => {
           label.classList.remove("align-left");
+          if (isMobileMode()) return;
           if (label.getBoundingClientRect().right > rightEdge - 4) {
             label.classList.add("align-left");
           }
