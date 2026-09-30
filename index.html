@@ -1,0 +1,1345 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>Hero Timeline | Flesh and Blood</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://legendstory-production-s3-public.s3.amazonaws.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&family=Newsreader:opsz,wght@6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #202a25;
+      --muted: #68746d;
+      --paper: #f3f5f0;
+      --surface: #fff;
+      --line: #dce2da;
+      --green: #34834d;
+      --green-dark: #195a36;
+      --green-pale: #e8f1e8;
+      --retired: #a4aaa5;
+      --family-link: #64866c;
+      --young-of-link: #c43838;
+      --today-line: #d1a900;
+      --orange: #b65f3f;
+      --rail-width: 284px;
+      --plot-width: 820px;
+      font-family: "Manrope", "Trebuchet MS", sans-serif;
+      background: var(--paper);
+      color: var(--ink);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-width: 320px;
+      background:
+        radial-gradient(ellipse at 84% 0%, rgba(189, 213, 182, .25), transparent 28rem),
+        var(--paper);
+    }
+
+    .masthead {
+      position: relative;
+      overflow: hidden;
+      padding: 30px max(24px, calc((100vw - 1500px) / 2)) 28px;
+      color: #f5f7ef;
+      background: #20382d;
+    }
+
+    .masthead::after {
+      position: absolute;
+      right: 7%;
+      bottom: -92px;
+      width: 360px;
+      height: 180px;
+      border: 1px solid rgba(218, 233, 213, .2);
+      border-radius: 50%;
+      content: "";
+      transform: rotate(-18deg);
+      pointer-events: none;
+    }
+
+    .masthead-inner, main {
+      width: min(1500px, 100%);
+      margin: 0 auto;
+    }
+
+    .masthead-inner { position: relative; z-index: 1; }
+
+    .eyebrow, .mono, .stat, .class-count, .relation, .axis-label, .year-tick {
+      font-family: "DM Mono", Consolas, monospace;
+      letter-spacing: 0;
+    }
+
+    .eyebrow {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      margin: 0 0 12px;
+      color: #b8d5bb;
+      font-size: 11px;
+      text-transform: uppercase;
+    }
+
+    .eyebrow::before {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #9bd29b;
+      content: "";
+    }
+
+    h1 {
+      margin: 0;
+      font-family: "Newsreader", Georgia, serif;
+      font-size: clamp(36px, 5vw, 62px);
+      font-weight: 500;
+      line-height: .98;
+    }
+
+    .masthead-bottom {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 22px;
+    }
+
+    .masthead-bottom p {
+      max-width: 510px;
+      margin: 0;
+      color: #d5e0d5;
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .stats { display: flex; gap: 22px; flex: none; }
+
+    .stat {
+      display: grid;
+      gap: 3px;
+      color: #aebfb0;
+      font-size: 10px;
+      text-transform: uppercase;
+    }
+
+    .stat strong {
+      color: #f5f7ef;
+      font-family: "Manrope", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+    }
+
+    main { padding: 22px 24px 52px; }
+
+    .toolbar {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 17px;
+    }
+
+    .search-wrap { position: relative; flex: 1 1 280px; max-width: 440px; }
+
+    .search-wrap::before {
+      position: absolute;
+      top: 50%;
+      left: 14px;
+      width: 13px;
+      height: 13px;
+      border: 1.5px solid #65766a;
+      border-radius: 50%;
+      content: "";
+      transform: translateY(-60%);
+    }
+
+    .search-wrap::after {
+      position: absolute;
+      top: calc(50% + 5px);
+      left: 26px;
+      width: 6px;
+      height: 1.5px;
+      background: #65766a;
+      content: "";
+      transform: rotate(45deg);
+      transform-origin: left;
+    }
+
+    input, select {
+      height: 42px;
+      border: 1px solid #cfd8cf;
+      border-radius: 5px;
+      color: var(--ink);
+      background: var(--surface);
+      font: inherit;
+      font-size: 13px;
+    }
+
+    input { width: 100%; padding: 0 14px 0 40px; }
+    select { min-width: 185px; padding: 0 34px 0 12px; }
+    input:focus, select:focus { outline: 2px solid #78a881; outline-offset: 2px; }
+
+    .legend {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 16px;
+      margin-left: auto;
+      color: #56635a;
+      font-size: 11px;
+    }
+
+    .legend-item { display: inline-flex; align-items: center; gap: 7px; white-space: nowrap; }
+    .legend-copy {
+      display: inline-flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1px;
+      line-height: 1.2;
+    }
+    .legend-copy a {
+      color: inherit;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .legend-line { width: 24px; height: 4px; border-radius: 5px; background: var(--green); }
+    .legend-line.young { background: var(--young-of-link); }
+    .legend-line.related { background: var(--family-link); }
+    .legend-line.retired { background: var(--retired); }
+    .legend-line.popularity { height: 10px; background: linear-gradient(90deg, #111b7a, #00dc4b); }
+    .legend-line.no-popularity { height: 10px; background: repeating-linear-gradient(135deg, #d9ded9 0 5px, #aeb6af 5px 10px); }
+    .legend-today { width: 2px; height: 18px; background: var(--today-line); }
+
+    .range-note {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 12px;
+      padding: 0 1px 12px;
+      color: var(--muted);
+      font-size: 11px;
+    }
+
+    .range-note strong { color: #435148; font-weight: 700; }
+
+    .class-scroll { overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-color: #aab8aa #e6ebe4; }
+    .class-section { margin-top: 7px; }
+
+    .timeline-head, .hero-row {
+      display: grid;
+      grid-template-columns: var(--rail-width) minmax(var(--plot-width), 1fr);
+      min-width: calc(var(--rail-width) + var(--plot-width));
+    }
+
+    .timeline-head { height: 58px; border-bottom: 1px solid var(--line); }
+
+    .class-title {
+      position: sticky;
+      left: 0;
+      z-index: 5;
+      display: flex;
+      align-items: center;
+      gap: 11px;
+      padding: 6px 14px 6px 2px;
+      background: var(--paper);
+    }
+
+    .class-title h2 {
+      overflow: hidden;
+      margin: 0;
+      font-size: 16px;
+      font-weight: 800;
+      text-overflow: ellipsis;
+    }
+
+    .class-count {
+      padding: 4px 7px;
+      border: 1px solid #d3ddd2;
+      border-radius: 3px;
+      color: #657469;
+      font-size: 10px;
+      white-space: nowrap;
+    }
+
+    .year-axis { position: relative; height: 100%; isolation: isolate; }
+    .axis-label { position: absolute; top: 8px; left: 0; color: #87938a; font-size: 9px; text-transform: uppercase; }
+
+    .axis-grid-tick {
+      position: absolute;
+      z-index: -1;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #dce3da;
+    }
+
+    .today-axis-line, .today-line {
+      position: absolute;
+      width: 2px;
+      background: var(--today-line);
+      pointer-events: none;
+    }
+
+    .today-axis-line { z-index: -1; top: 0; bottom: 0; }
+
+    .year-tick {
+      position: absolute;
+      bottom: 8px;
+      color: #657269;
+      font-size: 10px;
+      transform: none;
+    }
+
+    .hero-row { min-height: 102px; }
+
+    .hero-label {
+      position: sticky;
+      left: 0;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      min-width: 0;
+      gap: 10px;
+      padding: 6px 12px 6px 2px;
+      border-bottom: 1px solid #e7ebe5;
+      background: #fff;
+      box-shadow: 7px 0 10px -11px rgba(32, 42, 37, .45);
+    }
+
+    .hero-row:last-child .hero-label { border-bottom-color: #d5ddd4; }
+
+    .label-copy { min-width: 0; }
+
+    .hero-name {
+      display: block;
+      overflow: hidden;
+      color: #26332b;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.25;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      text-decoration: none;
+    }
+
+    .hero-name:hover, .hero-name:focus-visible { text-decoration: underline; text-underline-offset: 2px; }
+
+    .label-meta { display: flex; align-items: center; gap: 7px; min-width: 0; margin-top: 3px; }
+
+    .life, .relation {
+      color: #758177;
+      font-size: 9px;
+      line-height: 1.2;
+      text-transform: uppercase;
+      white-space: nowrap;
+    }
+
+    .relation { color: var(--green-dark); }
+    .relation.unlinked { color: #7a847c; }
+    .plot {
+      position: relative;
+      min-width: 0;
+      min-height: 101px;
+      background: #fff;
+      isolation: isolate;
+    }
+
+    .hero-row.search-match .hero-label,
+    .hero-row.search-match .plot { background: #fff3c4; }
+
+    .plot::after {
+      position: absolute;
+      z-index: 0;
+      right: 0;
+      bottom: 1px;
+      left: 0;
+      height: 1px;
+      background: #e7ebe5;
+      content: "";
+      pointer-events: none;
+    }
+
+    .hero-row:last-child .plot::after { background: #d5ddd4; }
+
+    .plot-tick {
+      position: absolute;
+      z-index: 1;
+      top: 0;
+      bottom: 0;
+      width: 1px;
+      background: #edf0eb;
+    }
+
+    .today-line { z-index: 1; top: 0; bottom: -1px; }
+
+    .activity-bar {
+      position: absolute;
+      z-index: 2;
+      top: 50%;
+      height: 20px;
+      min-width: 0;
+      border-radius: 0 999px 999px 0;
+      background: var(--green);
+      overflow: visible;
+      padding: 0 5px;
+      transform: translateY(-50%);
+    }
+
+    .activity-label {
+      position: absolute;
+      z-index: 10;
+      top: 50%;
+      display: inline-block;
+      overflow: visible;
+      border-radius: 2px;
+      padding: 1px 3px;
+      color: #fff;
+      background: transparent;
+      font: 13px/1.35 system-ui, Segoe UI, Roboto, sans-serif;
+      text-shadow: 0 0 3px #000, 0 0 2px #000;
+      text-overflow: clip;
+      white-space: nowrap;
+      transform: translateY(-50%);
+    }
+
+    .activity-label.align-left { transform: translate(calc(-100% - 70px), -50%); }
+
+    .activity-bar.retired { background: var(--retired); }
+    .activity-bar.popularity { background: var(--popularity-color); }
+    .activity-bar.no-popularity { background: repeating-linear-gradient(135deg, #d9ded9 0 7px, #aeb6af 7px 14px); }
+    .activity-bar.future { display: none; }
+
+    .family-trunk, .family-branch {
+      position: absolute;
+      z-index: 3;
+      --connector-color: var(--family-link);
+      opacity: 1;
+      pointer-events: none;
+    }
+
+    .family-trunk {
+      width: 2px;
+      background: var(--connector-color);
+    }
+    .family-branch {
+      height: 2px;
+      top: 50%;
+      background: var(--connector-color);
+      transform: translateY(-50%);
+    }
+    .family-trunk.young-of, .family-branch.young-of {
+      z-index: 4;
+      --connector-color: var(--young-of-link);
+      background: var(--young-of-link);
+    }
+
+    .card-marker {
+      position: absolute;
+      z-index: 5;
+      display: block;
+      appearance: none;
+      top: 6px;
+      width: 64px;
+      height: 90px;
+      overflow: hidden;
+      border: 1px solid #fff;
+      border-radius: 3px;
+      background: #e6ebe5;
+      box-shadow: 0 1px 4px rgba(25, 40, 30, .25);
+      transform: translateX(-50%);
+      padding: 0;
+      cursor: pointer;
+      font: inherit;
+      text-decoration: none;
+    }
+
+    .card-marker img { display: block; width: 100%; height: 100%; object-fit: cover; }
+    .card-marker img:not([src]), .card-marker img[src=""] { display: none; }
+
+    .card-preview {
+      position: fixed;
+      z-index: 20;
+      display: none;
+      width: min(448px, calc(100vw - 24px));
+      overflow: hidden;
+      border: 1px solid #cdd7cd;
+      border-radius: 5px;
+      background: #fff;
+      box-shadow: 0 12px 34px rgba(27, 42, 32, .24);
+    }
+
+    .card-preview.is-visible { display: block; }
+    .card-preview-image-link { display: block; }
+    .card-preview img { display: block; width: 100%; aspect-ratio: .72; max-height: min(626px, calc(100vh - 120px)); object-fit: contain; background: #e8ece7; }
+    .preview-copy { display: grid; gap: 5px; padding: 10px 12px 12px; }
+    .preview-copy a {
+      color: #135e9e;
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 1.35;
+      text-decoration: underline;
+      text-underline-offset: 2px;
+    }
+    .preview-copy span { color: #68746d; font-family: "DM Mono", Consolas, monospace; font-size: 10px; line-height: 1.4; }
+
+    .empty-state {
+      padding: 45px 20px;
+      color: var(--muted);
+      text-align: center;
+      font-size: 13px;
+    }
+
+    .load-error {
+      max-width: 700px;
+      margin: 45px auto;
+      padding: 22px;
+      border-left: 4px solid var(--orange);
+      color: #593a2f;
+      background: #fff;
+      line-height: 1.6;
+    }
+
+    .load-error code { font-family: "DM Mono", Consolas, monospace; }
+
+    .visually-hidden {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+    }
+
+    footer {
+      margin-top: 16px;
+      padding-top: 6px;
+      color: #7a867c;
+      font-size: 10px;
+    }
+
+    .acknowledgements {
+      display: grid;
+      gap: 5px;
+      margin-top: 2px;
+      padding-top: 5px;
+      line-height: 1.5;
+    }
+
+    .acknowledgements h2 {
+      margin: 0;
+      color: #56635a;
+      font-size: 10px;
+      font-weight: 700;
+    }
+
+    .acknowledgements ul {
+      display: grid;
+      gap: 5px;
+      margin: 0;
+      padding-left: 16px;
+    }
+
+    .acknowledgements a { color: inherit; text-underline-offset: 2px; }
+
+    @media (max-width: 760px) {
+      .masthead { padding: 25px 20px 22px; }
+      .masthead-bottom { align-items: start; flex-direction: column; gap: 16px; }
+      .stats { gap: 25px; }
+      main { padding: 16px 14px 36px; }
+      .legend { flex: 1 0 100%; margin-left: 0; }
+      .range-note { align-items: start; flex-direction: column; }
+      #timeline { overflow-x: auto; overflow-y: hidden; overscroll-behavior-x: contain; scrollbar-color: #aab8aa #e6ebe4; }
+      .class-scroll { overflow: visible; }
+      :root { --plot-width: 760px; }
+      .timeline-head {
+        grid-template-columns: minmax(var(--plot-width), 1fr);
+        grid-template-rows: 28px 58px;
+        height: 86px;
+        min-width: var(--plot-width);
+      }
+      .hero-row {
+        grid-template-columns: minmax(var(--plot-width), 1fr);
+        min-width: var(--plot-width);
+      }
+      .class-title {
+        position: static;
+        display: flex;
+        grid-column: 1;
+        grid-row: 1;
+        width: max-content;
+        max-width: 100%;
+        padding: 2px 8px 2px 2px;
+      }
+      .hero-label { display: none; }
+      .year-axis { grid-column: 1; grid-row: 2; }
+      .plot { grid-column: 1; }
+      .class-title h2 { font-size: 14px; }
+    }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .hero-row { animation: enter .28s ease-out both; }
+      @keyframes enter { from { opacity: .3; } to { opacity: 1; } }
+    }
+  </style>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-inner">
+      <h1>Flesh and Blood Heroes</h1>
+      <div class="masthead-bottom">
+        <p>A timeline of all released heroes and their connections, grouped by class.</p>
+        <div class="stats" id="stats" aria-live="polite"></div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="toolbar" aria-label="Timeline filters">
+      <label class="search-wrap">
+        <span class="visually-hidden">Search heroes</span>
+        <input id="search" type="search" placeholder="Find a hero" autocomplete="off" aria-label="Find a hero">
+      </label>
+      <label>
+        <span class="visually-hidden">Filter by class</span>
+        <select id="class-filter" aria-label="Filter by class">
+          <option value="">All classes</option>
+        </select>
+      </label>
+      <div class="legend" aria-label="Timeline legend">
+        <span class="legend-item"><i class="legend-line popularity"></i><span class="legend-copy"><span>Popularity last 30 days</span><a href="https://fabrary.net" target="_blank" rel="noopener noreferrer">Fabrary.net</a></span></span>
+        <span class="legend-item"><i class="legend-line no-popularity"></i>No data</span>
+        <span class="legend-item"><i class="legend-line young"></i>Young</span>
+        <span class="legend-item"><i class="legend-line related"></i>Related</span>
+        <span class="legend-item"><i class="legend-today"></i>Now</span>
+      </div>
+    </div>
+
+    <div class="range-note" id="range-note"></div>
+    <div id="timeline" aria-live="polite"></div>
+    <aside class="card-preview" id="card-preview" aria-hidden="true">
+      <a class="card-preview-image-link" id="preview-card-link" target="_blank" rel="noopener noreferrer">
+        <img id="preview-image" alt="">
+      </a>
+      <div class="preview-copy">
+        <a id="preview-name" target="_blank" rel="noopener noreferrer"></a>
+        <span id="preview-date"></span>
+        <span id="preview-duration"></span>
+        <span id="preview-set"></span>
+        <span id="preview-popularity" hidden></span>
+      </div>
+    </aside>
+    <footer>
+      <div class="acknowledgements" aria-label="Acknowledgements">
+        <h2>Acknowledgements</h2>
+        <ul>
+          <li>"Flesh and Blood Heroes Release Timeline" is in no way affiliated with Legend Story Studios. Flesh and Blood™, and set names are trademarks of Legend Story Studios®. Characters and names may be protected by copyright.</li>
+          <li>Popularity data collected from the excellent <a href="https://fabrary.net" target="_blank" rel="noopener noreferrer">Fabrary.net</a> (fetched <time id="popularity-source-time">loading...</time>).</li>
+          <li>Co-authored with GitHub Copilot (<a href="https://github.com/fleshandben/fab_heroes" target="_blank" rel="noopener noreferrer">github repository</a>).</li>
+        </ul>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    (() => {
+      const DAY = 86400000;
+      const NO_CLASS_FILTER = "__no_class__";
+      const timeline = document.querySelector("#timeline");
+      const search = document.querySelector("#search");
+      const classFilter = document.querySelector("#class-filter");
+      const stats = document.querySelector("#stats");
+      const rangeNote = document.querySelector("#range-note");
+      const cardPreview = document.querySelector("#card-preview");
+      const monthNames = ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"];
+      const previewCardLink = document.querySelector("#preview-card-link");
+      const previewImage = document.querySelector("#preview-image");
+      const previewName = document.querySelector("#preview-name");
+      const previewDate = document.querySelector("#preview-date");
+      const previewDuration = document.querySelector("#preview-duration");
+      const previewSet = document.querySelector("#preview-set");
+      const previewPopularity = document.querySelector("#preview-popularity");
+      const popularitySourceTime = document.querySelector("#popularity-source-time");
+      const largeImageLoads = new Map();
+      const popularityByHero = new Map();
+      let heroes = [];
+      let maxGameshare = 0;
+      let minDate = 0;
+      let maxDate = 0;
+      let today = 0;
+      let ticks = [];
+      let previewHideTimer;
+      let activePreviewHeroId = null;
+      let syncingTimelineScroll = false;
+
+      function loadPopularity(format, path, version) {
+        const url = new URL(path, "https://content.fabrary.net");
+        url.searchParams.set("v", version);
+        return fetch(url, { cache: "no-store" })
+          .then((response) => response.ok ? response.json() : null)
+          .then((payload) => payload && Array.isArray(payload.heroResults) ? { format, payload } : null)
+          .catch(() => null);
+      }
+
+      function addPopularityResults(result) {
+        if (!result) return;
+        const games = Number(result.payload.games);
+        if (!Number.isFinite(games) || games <= 0) return;
+        const rankedHeroIds = [...result.payload.heroResults]
+          .filter((entry) => entry?.heroIdentifier)
+          .sort((first, second) => (Number(second.plays) || 0) - (Number(first.plays) || 0)
+            || first.heroIdentifier.localeCompare(second.heroIdentifier))
+          .map((entry) => entry.heroIdentifier);
+        const rankByHero = new Map(rankedHeroIds.map((heroId, index) => [heroId, index + 1]));
+        result.payload.heroResults.forEach((entry) => {
+          if (!entry?.heroIdentifier) return;
+          const plays = Number(entry.plays) || 0;
+          const recordPlays = Number(entry.record?.plays) || 0;
+          const wins = Number(entry.record?.wins) || 0;
+          const candidate = {
+            format: result.format,
+            plays,
+            gameshare: plays / games,
+            winRate: recordPlays > 0 ? wins / recordPlays : null,
+            rank: rankByHero.get(entry.heroIdentifier),
+            total: rankedHeroIds.length,
+          };
+          const current = popularityByHero.get(entry.heroIdentifier);
+          if (!current || candidate.gameshare > current.gameshare) popularityByHero.set(entry.heroIdentifier, candidate);
+        });
+      }
+
+      function popularityColor(gameshare) {
+        const relative = maxGameshare > 0 ? Math.max(0, Math.min(1, gameshare / maxGameshare)) : 0;
+        const hue = Math.round(240 - 120 * Math.sqrt(relative));
+        const lightness = 32 + relative * 20;
+        return `hsl(${hue} 100% ${lightness}%)`;
+      }
+
+      const toDay = (value) => {
+        if (!value || typeof value !== "string") return null;
+        const text = value.trim();
+        const isoMatch = /^(\d{4})-(\d{2})-(\d{2})$/.exec(text);
+        const namedMatch = /^([A-Za-z]+)\s+(\d{1,2}),\s*(\d{4})$/.exec(text);
+        let year;
+        let month;
+        let day;
+
+        if (isoMatch) {
+          year = Number(isoMatch[1]);
+          month = Number(isoMatch[2]) - 1;
+          day = Number(isoMatch[3]);
+        } else if (namedMatch) {
+          month = monthNames.indexOf(namedMatch[1].toLowerCase());
+          if (month < 0) return null;
+          day = Number(namedMatch[2]);
+          year = Number(namedMatch[3]);
+        } else {
+          return null;
+        }
+
+        const utc = Date.UTC(year, month, day);
+        const parsed = new Date(utc);
+        return parsed.getUTCFullYear() === year && parsed.getUTCMonth() === month && parsed.getUTCDate() === day
+          ? utc
+          : null;
+      };
+
+      const percent = (value) => Math.max(0, Math.min(100, ((value - minDate) / (maxDate - minDate)) * 100));
+      const formatDate = (value) => new Intl.DateTimeFormat("en", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" }).format(new Date(value));
+      function formatDuration(start, end) {
+        if (start === null || end === null || start > end) return "Not released yet";
+
+        const startDate = new Date(start);
+        const endDate = new Date(end);
+        const endYear = endDate.getUTCFullYear();
+        const endMonth = endDate.getUTCMonth();
+        let years = endYear - startDate.getUTCFullYear();
+        let months = endMonth - startDate.getUTCMonth();
+        let days = endDate.getUTCDate() - startDate.getUTCDate();
+
+        if (days < 0) {
+          months -= 1;
+          days += new Date(Date.UTC(endYear, endMonth, 0)).getUTCDate();
+        }
+        if (months < 0) {
+          years -= 1;
+          months += 12;
+        }
+
+        const parts = [];
+        if (years) parts.push(`${years} ${years === 1 ? "year" : "years"}`);
+        if (months) parts.push(`${months} ${months === 1 ? "month" : "months"}`);
+        if (days || !parts.length) parts.push(`${days} ${days === 1 ? "day" : "days"}`);
+        return parts.join(", ");
+      }
+
+      const formatOptionalDate = (value) => {
+        const day = toDay(value);
+        return day === null ? "Date unavailable" : formatDate(day);
+      };
+
+      function placePreview(marker) {
+        const bounds = marker.getBoundingClientRect();
+        const previewBounds = cardPreview.getBoundingClientRect();
+        const margin = 12;
+        const gap = 12;
+        let left = bounds.right + gap;
+        if (left + previewBounds.width > window.innerWidth - margin) left = bounds.left - previewBounds.width - gap;
+        left = Math.max(margin, Math.min(left, window.innerWidth - previewBounds.width - margin));
+        const top = Math.max(margin, Math.min(bounds.top + bounds.height / 2 - previewBounds.height / 2, window.innerHeight - previewBounds.height - margin));
+        cardPreview.style.left = `${left}px`;
+        cardPreview.style.top = `${top}px`;
+      }
+
+      function loadLargeImage(url) {
+        if (!url) return Promise.resolve(null);
+        if (!largeImageLoads.has(url)) {
+          const image = new Image();
+          image.decoding = "async";
+          image.fetchPriority = "high";
+          largeImageLoads.set(url, new Promise((resolve) => {
+            image.onload = () => resolve(url);
+            image.onerror = () => resolve(null);
+            image.src = url;
+          }));
+        }
+        return largeImageLoads.get(url);
+      }
+
+      function showPreview(hero, marker) {
+        window.clearTimeout(previewHideTimer);
+        activePreviewHeroId = hero.id;
+        const cardUrl = hero.card_url || `https://cardvault.fabtcg.com/card/${encodeURIComponent(hero.id)}`;
+        previewCardLink.href = cardUrl;
+        previewCardLink.setAttribute("aria-label", `Open ${hero.name} card on CardVault in a new tab`);
+        previewImage.src = marker.querySelector("img")?.currentSrc || hero.images?.small || hero.images?.normal || hero.images?.large || "";
+        previewImage.alt = `${hero.name} card`;
+        previewName.textContent = hero.name;
+        previewName.href = cardUrl;
+        previewName.setAttribute("aria-label", `Open ${hero.name} card on CardVault in a new tab`);
+        const release = toDay(hero.first_release_date);
+        const dateDetails = [release === null ? "First release: Date unavailable" : `First release: ${formatDate(release)}`];
+        const retirement = toDay(hero.retirement_date);
+        if (hero.retirement_date) {
+          dateDetails.push(retirement === null ? `Retired: ${hero.retirement_date}` : `Retired: ${formatDate(retirement)}`);
+        }
+        previewDate.textContent = dateDetails.join(" · ");
+        const activityEnd = retirement !== null ? retirement : Math.min(today, maxDate);
+        previewDuration.textContent = `Active for: ${formatDuration(release, activityEnd)}`;
+        previewSet.textContent = `Set: ${hero.set?.name || "Set not listed"}`;
+        const popularity = popularityByHero.get(hero.id);
+        previewPopularity.hidden = !popularity;
+        if (popularity) {
+          const formatName = { CC: "Classic Constructed", SAGE: "Silver Age" }[popularity.format] || popularity.format;
+          const winRate = popularity.winRate === null ? "n/a" : `${(popularity.winRate * 100).toFixed(1)}%`;
+          previewPopularity.textContent = `${formatName} ${(popularity.gameshare * 100).toFixed(1)}% · ${popularity.plays.toLocaleString()} plays · #${popularity.rank}/${popularity.total} · Win Rate ${winRate}`;
+        }
+        cardPreview.classList.add("is-visible");
+        cardPreview.setAttribute("aria-hidden", "false");
+        placePreview(marker);
+        loadLargeImage(hero.images?.large).then((url) => {
+          if (url && activePreviewHeroId === hero.id) previewImage.src = url;
+        });
+      }
+
+      function isMobileMode() {
+        return window.matchMedia("(max-width: 760px)").matches;
+      }
+
+      function closePreview() {
+        window.clearTimeout(previewHideTimer);
+        cardPreview.classList.remove("is-visible");
+        cardPreview.setAttribute("aria-hidden", "true");
+        activePreviewHeroId = null;
+      }
+
+      function hidePreview() {
+        if (isMobileMode()) return;
+        previewHideTimer = window.setTimeout(closePreview, 120);
+      }
+
+      cardPreview.addEventListener("pointerenter", () => {
+        if (!isMobileMode()) window.clearTimeout(previewHideTimer);
+      });
+      cardPreview.addEventListener("pointerleave", hidePreview);
+      cardPreview.addEventListener("click", (event) => {
+        if (!isMobileMode()) return;
+        if (previewCardLink.contains(event.target)) {
+          event.preventDefault();
+          closePreview();
+          return;
+        }
+        if (previewName.contains(event.target)) {
+          window.setTimeout(closePreview, 0);
+          return;
+        }
+        closePreview();
+      });
+      document.addEventListener("click", (event) => {
+        if (!cardPreview.classList.contains("is-visible")) return;
+        const target = event.target;
+        if (!(target instanceof Element) || cardPreview.contains(target) || target.closest(".card-marker")) return;
+        closePreview();
+      });
+
+      function addTick(container, tick, axis) {
+        const line = document.createElement("i");
+        line.className = axis ? "axis-grid-tick" : "plot-tick";
+        line.style.left = `${percent(tick.value)}%`;
+        container.append(line);
+        if (axis) {
+          const label = document.createElement("span");
+          label.className = "year-tick";
+          label.style.left = `${percent(tick.value)}%`;
+          label.textContent = String(tick.year);
+          container.append(label);
+        }
+      }
+
+      function addTodayMarker(container, axis) {
+        const marker = document.createElement("i");
+        marker.className = axis ? "today-axis-line" : "today-line";
+        marker.style.left = `${percent(today)}%`;
+        marker.setAttribute("aria-hidden", "true");
+        container.append(marker);
+      }
+
+      function makeSectionHeading(className, count) {
+        const heading = document.createElement("div");
+        heading.className = "timeline-head";
+
+        const title = document.createElement("div");
+        title.className = "class-title";
+        const h2 = document.createElement("h2");
+        h2.textContent = className;
+        const badge = document.createElement("span");
+        badge.className = "class-count";
+        badge.textContent = `${count} ${count === 1 ? "hero" : "heroes"}`;
+        title.append(h2, badge);
+
+        const axis = document.createElement("div");
+        axis.className = "year-axis";
+        ticks.forEach((tick) => addTick(axis, tick, true));
+        addTodayMarker(axis, true);
+        heading.append(title, axis);
+        return heading;
+      }
+
+      function makeHeroRow(hero) {
+        const release = toDay(hero.first_release_date);
+        if (release === null) return null;
+
+        const row = document.createElement("div");
+        row.className = "hero-row";
+
+        const label = document.createElement("div");
+        label.className = "hero-label";
+        const copy = document.createElement("div");
+        copy.className = "label-copy";
+        const cardUrl = hero.card_url || `https://cardvault.fabtcg.com/card/${encodeURIComponent(hero.id)}`;
+        const name = document.createElement("a");
+        name.className = "hero-name";
+        name.href = cardUrl;
+        name.target = "_blank";
+        name.rel = "noopener noreferrer";
+        name.title = `Open ${hero.name} on CardVault`;
+        name.textContent = hero.name;
+        copy.append(name);
+
+        const isYoung = hero.is_young === true || (Array.isArray(hero.tags) && hero.tags.includes("young"));
+        if (isYoung) {
+          const meta = document.createElement("div");
+          meta.className = "label-meta";
+          const tag = document.createElement("span");
+          tag.className = "relation";
+          tag.textContent = "young";
+          meta.append(tag);
+          copy.append(meta);
+        }
+
+        label.append(copy);
+
+        const plot = document.createElement("div");
+        plot.className = "plot";
+        ticks.forEach((tick) => addTick(plot, tick, false));
+        addTodayMarker(plot, false);
+
+        const retired = Boolean(hero.retirement_date);
+        const retirementDay = retired ? toDay(hero.retirement_date) : null;
+        const end = retirementDay !== null ? retirementDay : Math.min(today, maxDate);
+        const bar = document.createElement("span");
+        const barPopularity = popularityByHero.get(hero.id);
+        bar.className = `activity-bar${retired ? " retired" : barPopularity ? " popularity" : " no-popularity"}${release > today && !retired ? " future" : ""}`;
+        if (barPopularity && !retired) bar.style.setProperty("--popularity-color", popularityColor(barPopularity.gameshare));
+        bar.style.left = `${percent(release)}%`;
+        bar.style.width = `${Math.max(0, percent(Math.max(release, end)) - percent(release))}%`;
+        let activityLabel = null;
+        if (retired) {
+          activityLabel = document.createElement("span");
+          activityLabel.className = "activity-label retired-label";
+          activityLabel.textContent = "Living Legends";
+          activityLabel.setAttribute("aria-hidden", "true");
+          bar.title = `Retired ${formatDate(end)}${barPopularity ? ` · ${barPopularity.plays.toLocaleString()} plays` : ""}`;
+        } else if (barPopularity) {
+          const winRate = barPopularity.winRate === null ? "n/a" : `${(barPopularity.winRate * 100).toFixed(1)}%`;
+          activityLabel = document.createElement("span");
+          activityLabel.className = "activity-label popularity-label";
+          const played = `${(barPopularity.gameshare * 100).toFixed(1)}%`;
+          activityLabel.textContent = `${barPopularity.format} ${played} · ${barPopularity.plays.toLocaleString()} plays · #${barPopularity.rank}/${barPopularity.total} · WR ${winRate}`;
+          activityLabel.setAttribute("aria-hidden", "true");
+          bar.title = `${barPopularity.format} · ${barPopularity.plays.toLocaleString()} plays · ${winRate} win rate · ${(barPopularity.gameshare * 100).toFixed(2)}% of games`;
+        } else {
+          bar.title = "No Fabrary results in the last 30 days";
+        }
+        plot.append(bar);
+        if (activityLabel) {
+          activityLabel.style.left = `calc(${percent(release)}% + 35px)`;
+          plot.append(activityLabel);
+        }
+
+        const marker = document.createElement("button");
+        marker.type = "button";
+        marker.className = "card-marker";
+        marker.style.left = `${Math.max(1.9, Math.min(98.1, percent(release)))}%`;
+        marker.setAttribute("aria-label", `${hero.name}, released ${formatDate(release)}, ${hero.set.name}; card preview`);
+        marker.addEventListener("pointerenter", () => {
+          if (!isMobileMode()) showPreview(hero, marker);
+        });
+        marker.addEventListener("pointerleave", hidePreview);
+        marker.addEventListener("focus", () => {
+          if (!isMobileMode()) showPreview(hero, marker);
+        });
+        marker.addEventListener("blur", hidePreview);
+        marker.addEventListener("click", () => {
+          if (!isMobileMode()) return;
+          if (activePreviewHeroId === hero.id && cardPreview.classList.contains("is-visible")) closePreview();
+          else showPreview(hero, marker);
+        });
+        const image = document.createElement("img");
+        image.src = hero.images?.small || "";
+        image.alt = `${hero.name} card`;
+        image.loading = "lazy";
+        image.decoding = "async";
+        image.addEventListener("error", () => marker.remove(), { once: true });
+        marker.append(image);
+        plot.append(marker);
+
+        row.append(label, plot);
+        return row;
+      }
+
+      function alignActivityLabels(scroll) {
+        const rightEdge = scroll.getBoundingClientRect().right;
+        scroll.querySelectorAll(".activity-label").forEach((label) => {
+          label.classList.remove("align-left");
+          if (label.getBoundingClientRect().right > rightEdge - 4) {
+            label.classList.add("align-left");
+          }
+        });
+      }
+
+      function syncTimelineScroll(source) {
+        if (syncingTimelineScroll) return;
+        syncingTimelineScroll = true;
+        timeline.querySelectorAll(".class-scroll").forEach((scroll) => {
+          if (scroll !== source) scroll.scrollLeft = source.scrollLeft;
+        });
+        requestAnimationFrame(() => { syncingTimelineScroll = false; });
+      }
+
+      function familyOrdered(members) {
+        const groups = new Map();
+        members.forEach((hero) => {
+          if (!hero.group) return;
+          if (!groups.has(hero.group)) groups.set(hero.group, []);
+          groups.get(hero.group).push(hero);
+        });
+
+        const used = new Set();
+        const units = [];
+        groups.forEach((group) => {
+          if (group.length < 2) return;
+          const chronologicalRows = group.sort((a, b) => toDay(a.first_release_date) - toDay(b.first_release_date)
+            || Number(a.is_young) - Number(b.is_young)
+            || a.name.localeCompare(b.name));
+          const oldest = chronologicalRows[0];
+          const orderedRows = [];
+          for (let start = 0; start < chronologicalRows.length;) {
+            let end = start + 1;
+            const firstDay = toDay(chronologicalRows[start].first_release_date);
+            while (end < chronologicalRows.length
+              && toDay(chronologicalRows[end].first_release_date) - firstDay < 30 * DAY) end += 1;
+            orderedRows.push(...chronologicalRows.slice(start, end).sort((a, b) => Number(a.life === "*") - Number(b.life === "*")
+              || (a.life === "*" && b.life === "*" ? Number(b.is_young) - Number(a.is_young) : 0)
+              || toDay(a.first_release_date) - toDay(b.first_release_date)
+              || Number(a.is_young) - Number(b.is_young)
+              || a.name.localeCompare(b.name)));
+            start = end;
+          }
+          const rows = [];
+          const placed = new Set();
+          orderedRows.forEach((hero) => {
+            if (placed.has(hero.id)) return;
+            const heroDay = toDay(hero.first_release_date);
+            if (hero.is_young) {
+              chronologicalRows.filter((candidate) => !candidate.is_young
+                && candidate.life !== "*"
+                && !placed.has(candidate.id)
+                && toDay(candidate.first_release_date) >= heroDay
+                && toDay(candidate.first_release_date) - heroDay < 30 * DAY)
+                .forEach((adult) => {
+                  rows.push(adult);
+                  placed.add(adult.id);
+                });
+            }
+            rows.push(hero);
+            placed.add(hero.id);
+          });
+          const byId = new Map(rows.map((hero) => [hero.id, hero]));
+          const youngOfTargets = new Map();
+          rows.forEach((hero) => {
+            if (!hero.is_young || hero.related_hero?.type !== "young_of") return;
+            const adult = byId.get(hero.related_hero.id);
+            if (adult) youngOfTargets.set(hero.id, adult);
+          });
+          const rowIndexes = new Map(rows.map((hero, index) => [hero.id, index]));
+          const youngOfLinks = [...youngOfTargets].map(([youngId, adult]) => {
+            const young = byId.get(youngId);
+            const youngIsHigher = rowIndexes.get(youngId) < rowIndexes.get(adult.id);
+            return {
+              sourceId: youngIsHigher ? young.id : adult.id,
+              targetId: youngIsHigher ? adult.id : young.id,
+              type: "young_of",
+            };
+          });
+          const redLowerIds = new Set(youngOfLinks.map(({ sourceId, targetId }) => {
+            const sourceIndex = rowIndexes.get(sourceId);
+            const targetIndex = rowIndexes.get(targetId);
+            return sourceIndex > targetIndex ? sourceId : targetId;
+          }));
+          const groupAnchorId = rows[0]?.id ?? oldest.id;
+          const groupLinks = rows.slice(1)
+            .filter((hero) => !redLowerIds.has(hero.id))
+            .map((hero) => ({ sourceId: groupAnchorId, targetId: hero.id, type: "group" }));
+          const links = [...youngOfLinks, ...groupLinks];
+          units.push({ date: toDay(oldest.first_release_date), name: oldest.name, rows, links });
+          rows.forEach((hero) => used.add(hero.id));
+        });
+
+        members.filter((hero) => !used.has(hero.id)).forEach((hero) => {
+          units.push({ date: toDay(hero.first_release_date), name: hero.name, rows: [hero], links: [] });
+        });
+
+        return units.sort((a, b) => a.date - b.date || a.name.localeCompare(b.name));
+      }
+
+      function searchMatches(hero, query) {
+        return hero.name.toLocaleLowerCase().includes(query);
+      }
+
+      function heroesForClass(className) {
+        return heroes.filter((hero) => className === NO_CLASS_FILTER
+          ? !(hero.classes || []).length
+          : (hero.classes || []).includes(className));
+      }
+
+      function applyFamilySearch(classHeroes, query) {
+        if (!query) return classHeroes;
+        const selected = new Set(classHeroes.filter((hero) => searchMatches(hero, query)).map((hero) => hero.id));
+        classHeroes.forEach((hero) => {
+          if (!selected.has(hero.id)) return;
+          if (!hero.group) return;
+          classHeroes.filter((candidate) => candidate.group === hero.group)
+            .forEach((candidate) => selected.add(candidate.id));
+        });
+        return classHeroes.filter((hero) => selected.has(hero.id));
+      }
+
+      function render() {
+        timeline.replaceChildren();
+        const query = search.value.trim().toLocaleLowerCase();
+        const chosenClass = classFilter.value;
+        const classes = [...new Set(heroes.flatMap((hero) => hero.classes || []))].sort((a, b) => a.localeCompare(b));
+        const hasNoClassHeroes = heroes.some((hero) => !(hero.classes || []).length);
+        const classNames = chosenClass ? [chosenClass] : [...classes, ...(hasNoClassHeroes ? [NO_CLASS_FILTER] : [])];
+        let displayed = 0;
+
+        classNames.forEach((className) => {
+          const sectionName = className === NO_CLASS_FILTER ? "No class" : className;
+          const members = heroesForClass(className);
+          const visible = applyFamilySearch(members, query);
+          if (!visible.length) return;
+          displayed += visible.length;
+
+          const section = document.createElement("section");
+          section.className = "class-section";
+          section.setAttribute("aria-label", `${sectionName} heroes`);
+          const scroll = document.createElement("div");
+          scroll.className = "class-scroll";
+          scroll.addEventListener("scroll", () => syncTimelineScroll(scroll), { passive: true });
+          scroll.append(makeSectionHeading(sectionName, visible.length));
+          familyOrdered(visible).forEach((unit) => {
+            const rowsById = new Map();
+            unit.rows.forEach((hero) => {
+              const row = makeHeroRow(hero);
+              if (!row) return;
+              if (query && searchMatches(hero, query)) row.classList.add("search-match");
+              rowsById.set(hero.id, row);
+              scroll.append(row);
+            });
+
+            const rowIndexes = new Map(unit.rows.map((hero, index) => [hero.id, index]));
+            const childrenByTarget = new Map();
+            unit.links.forEach(({ sourceId, targetId, type }) => {
+              const key = `${targetId}::${type}`;
+              if (!childrenByTarget.has(key)) childrenByTarget.set(key, { targetId, type, sourceIds: [] });
+              childrenByTarget.get(key).sourceIds.push(sourceId);
+            });
+            childrenByTarget.forEach(({ sourceIds, targetId, type }) => {
+              const targetIndex = rowIndexes.get(targetId);
+              if (targetIndex === undefined) return;
+              const target = unit.rows[targetIndex];
+              const targetPercent = percent(toDay(target.first_release_date));
+
+              sourceIds.forEach((sourceId) => {
+                const sourceIndex = rowIndexes.get(sourceId);
+                const source = unit.rows[sourceIndex];
+                const sourcePlot = rowsById.get(sourceId)?.querySelector(".plot");
+                if (sourceIndex === undefined || !source || !sourcePlot) return;
+                const sourcePercent = percent(toDay(source.first_release_date));
+                const firstIndex = Math.min(sourceIndex, targetIndex);
+                const lastIndex = Math.max(sourceIndex, targetIndex);
+                for (let index = firstIndex; index <= lastIndex; index += 1) {
+                  const plot = rowsById.get(unit.rows[index].id)?.querySelector(".plot");
+                  if (!plot) continue;
+                  const trunk = document.createElement("span");
+                  trunk.className = `family-trunk${type === "young_of" ? " young-of" : ""}`;
+                  trunk.style.left = `${sourcePercent}%`;
+                  trunk.style.top = index === sourceIndex ? "50%" : "0";
+                  trunk.style.bottom = index === targetIndex ? "50%" : "0";
+                  plot.append(trunk);
+                }
+
+                const branch = document.createElement("span");
+                branch.className = `family-branch${type === "young_of" ? " young-of" : ""}`;
+                branch.style.left = `${Math.min(targetPercent, sourcePercent)}%`;
+                branch.style.width = `${Math.abs(targetPercent - sourcePercent)}%`;
+                rowsById.get(targetId)?.querySelector(".plot")?.append(branch);
+              });
+            });
+          });
+          section.append(scroll);
+          timeline.append(section);
+          alignActivityLabels(scroll);
+        });
+
+        if (!displayed) {
+          const empty = document.createElement("div");
+          empty.className = "empty-state";
+          empty.textContent = "No heroes match this view.";
+          timeline.append(empty);
+        }
+
+        const uniqueVisible = chosenClass || query
+          ? new Set(classNames.flatMap((name) => applyFamilySearch(heroesForClass(name), query).map((hero) => hero.id))).size
+          : heroes.length;
+        rangeNote.replaceChildren();
+        const left = document.createElement("span");
+        const count = document.createElement("strong");
+        count.textContent = String(uniqueVisible);
+        left.append(count, document.createTextNode(` heroes shown${chosenClass ? ` · ${chosenClass}` : " · all classes"}`));
+        const right = document.createElement("span");
+        right.textContent = `${new Date(minDate).getUTCFullYear()} — ${new Date(maxDate).getUTCFullYear()}`;
+        rangeNote.append(left, right);
+      }
+
+      function setupData(data) {
+        heroes = data.filter((hero) => hero && hero.name && toDay(hero.first_release_date) !== null);
+        const releaseDays = heroes.map((hero) => toDay(hero.first_release_date)).filter((value) => value !== null);
+        const activityDays = heroes.filter((hero) => hero.retirement_date).map((hero) => toDay(hero.retirement_date)).filter((value) => value !== null);
+        const now = new Date();
+        today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+        if (!releaseDays.length) {
+          minDate = Date.UTC(new Date().getUTCFullYear(), 0, 1);
+          maxDate = Date.UTC(new Date().getUTCFullYear() + 1, 0, 1);
+          ticks = [];
+          stats.innerHTML = '<span class="stat"><strong>0</strong>heroes</span><span class="stat"><strong>0</strong>classes</span><span class="stat"><strong>0</strong>living legends</span>';
+          render();
+          return;
+        }
+        const firstRelease = Math.min(...releaseDays);
+        const firstYear = new Date(firstRelease).getUTCFullYear();
+        minDate = Date.UTC(firstYear, 0, 1);
+        const latestDataDate = Math.max(...releaseDays, ...activityDays, today);
+        const lastYear = Math.max(new Date(latestDataDate).getUTCFullYear(), new Date(today).getUTCFullYear() + 1);
+        maxDate = Date.UTC(lastYear + 1, 0, 1);
+        if (minDate === maxDate) maxDate += DAY;
+
+        ticks = [{ year: firstYear, value: minDate }];
+        for (let year = firstYear + 1; year <= lastYear; year += 1) {
+          const value = Date.UTC(year, 0, 1);
+          if (value >= minDate && value <= maxDate) ticks.push({ year, value });
+        }
+
+        const classes = [...new Set(heroes.flatMap((hero) => hero.classes || []))].sort((a, b) => a.localeCompare(b));
+        classes.forEach((className) => {
+          const option = document.createElement("option");
+          option.value = className;
+          option.textContent = className;
+          classFilter.append(option);
+        });
+        if (heroes.some((hero) => !(hero.classes || []).length)) {
+          const option = document.createElement("option");
+          option.value = NO_CLASS_FILTER;
+          option.textContent = "No class";
+          classFilter.append(option);
+        }
+
+        const retiredCount = heroes.filter((hero) => hero.retirement_date).length;
+        stats.innerHTML = `<span class="stat"><strong>${heroes.length}</strong>heroes</span><span class="stat"><strong>${classes.length}</strong>classes</span><span class="stat"><strong>${retiredCount}</strong>living legends</span>`;
+        search.addEventListener("input", render);
+        classFilter.addEventListener("change", render);
+        window.addEventListener("resize", () => {
+          timeline.querySelectorAll(".class-scroll").forEach(alignActivityLabels);
+        });
+        render();
+      }
+
+      const version = new Date().toISOString();
+      Promise.all([
+        fetch("https://raw.githubusercontent.com/fleshandben/fab_heroes/main/heroes.json", { cache: "no-store" })
+        .then((response) => {
+          if (!response.ok) throw new Error(`Could not load hero data (${response.status}).`);
+          return response.json();
+        })
+        .then((data) => {
+          if (!Array.isArray(data)) throw new Error("Hero data must be a JSON array.");
+          return data;
+        }),
+        Promise.all([
+          loadPopularity("CC", "/results/all-classic-constructed-last-30-days.json", version),
+          loadPopularity("SAGE", "/results/all-silver-age-last-30-days.json", version),
+        ]),
+      ])
+        .then(([data, results]) => {
+          results.forEach(addPopularityResults);
+          maxGameshare = Math.max(0, ...[...popularityByHero.values()].map((item) => item.gameshare));
+          const fetchedAt = new Intl.DateTimeFormat("en", { dateStyle: "medium", timeStyle: "short" }).format(new Date(version));
+          popularitySourceTime.textContent = fetchedAt;
+          setupData(data);
+        })
+        .catch((error) => {
+          const message = document.createElement("div");
+          message.className = "load-error";
+          message.textContent = `${error.message} Unable to load hero data.`;
+          timeline.replaceChildren(message);
+        });
+    })();
+  </script>
+</body>
+</html>

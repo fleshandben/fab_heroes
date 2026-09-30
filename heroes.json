@@ -1,0 +1,4241 @@
+[
+    {
+        "id": "arakni",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni",
+        "name": "Arakni",
+        "life": 20,
+        "first_release_date": "2022-11-11",
+        "set": {
+            "code": "DYN",
+            "name": "Dynasty"
+        },
+        "related_hero": {
+            "id": "arakni-huntsman",
+            "name": "Arakni, Huntsman",
+            "type": "young_of"
+        },
+        "group": "Arakni",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPA001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-5lp3d-7hru-7h3-cr4x",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-5lp3d-7hru-7h3-cr4x",
+        "name": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+        "life": 38,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "HNT",
+            "name": "The Hunted"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AAC001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AAC001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAC001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-black-widow",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-black-widow",
+        "name": "Arakni, Black Widow",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR034.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR034.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR034.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-funnel-web",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-funnel-web",
+        "name": "Arakni, Funnel Web",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR035.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR035.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR035.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-huntsman",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-huntsman",
+        "name": "Arakni, Huntsman",
+        "life": 40,
+        "first_release_date": "2022-11-11",
+        "set": {
+            "code": "DYN",
+            "name": "Dynasty"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT263-MV.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT263-MV.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT263-MV.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-marionette",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-marionette",
+        "name": "Arakni, Marionette",
+        "life": 40,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "HNT",
+            "name": "The Hunted"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-orb-weaver",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-orb-weaver",
+        "name": "Arakni, Orb-Weaver",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR036.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR036.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR036.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-redback",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-redback",
+        "name": "Arakni, Redback",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR037.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR037.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR037.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-solitary-confinement",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-solitary-confinement",
+        "name": "Arakni, Solitary Confinement",
+        "life": 19,
+        "first_release_date": "2023-03-24",
+        "set": {
+            "code": "OUT",
+            "name": "Outsiders"
+        },
+        "related_hero": {
+            "id": "arakni-5lp3d-7hru-7h3-cr4x",
+            "name": "Arakni, 5L!p3d 7hRu 7h3 cR4X",
+            "type": "young_of"
+        },
+        "group": "Arakni",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT262-MV.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT262-MV.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT262-MV.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-tarantula",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-tarantula",
+        "name": "Arakni, Tarantula",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR038.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR038.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR038.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-trap-door",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-trap-door",
+        "name": "Arakni, Trap-Door",
+        "life": "*",
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": null,
+        "group": "Arakni",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR039.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR039.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR039.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "arakni-web-of-deceit",
+        "card_url": "https://cardvault.fabtcg.com/card/arakni-web-of-deceit",
+        "name": "Arakni, Web of Deceit",
+        "life": 20,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "WOD",
+            "name": "The Hunted Blitz Deck - Arakni, Web of Deceit"
+        },
+        "related_hero": {
+            "id": "arakni-marionette",
+            "name": "Arakni, Marionette",
+            "type": "young_of"
+        },
+        "group": "Arakni",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAR001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAR001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAR001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "aurora",
+        "card_url": "https://cardvault.fabtcg.com/card/aurora",
+        "name": "Aurora",
+        "life": 20,
+        "first_release_date": "2024-08-01",
+        "set": {
+            "code": "AUR",
+            "name": "1st Strike - Aurora"
+        },
+        "related_hero": {
+            "id": "aurora-shooting-star",
+            "name": "Aurora, Shooting Star",
+            "type": "young_of"
+        },
+        "group": "Aurora",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS008.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS008.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS008.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "aurora-emissary-of-lightning",
+        "card_url": "https://cardvault.fabtcg.com/card/aurora-emissary-of-lightning",
+        "name": "Aurora, Emissary of Lightning",
+        "life": 20,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "OMN",
+            "name": "Omens of the Third Age"
+        },
+        "related_hero": {
+            "id": "aurora-legacy-of-tempest",
+            "name": "Aurora, Legacy of Tempest",
+            "type": "young_of"
+        },
+        "group": "Aurora",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN048.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN048.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN048.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "aurora-legacy-of-tempest",
+        "card_url": "https://cardvault.fabtcg.com/card/aurora-legacy-of-tempest",
+        "name": "Aurora, Legacy of Tempest",
+        "life": 40,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "OMN",
+            "name": "Omens of the Third Age"
+        },
+        "related_hero": null,
+        "group": "Aurora",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN047.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN047.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN047.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "aurora-shooting-star",
+        "card_url": "https://cardvault.fabtcg.com/card/aurora-shooting-star",
+        "name": "Aurora, Shooting Star",
+        "life": 40,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": null,
+        "group": "Aurora",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AST001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AST001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AST001.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": "May 9, 2025"
+    },
+    {
+        "id": "azalea",
+        "card_url": "https://cardvault.fabtcg.com/card/azalea",
+        "name": "Azalea",
+        "life": 20,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": {
+            "id": "azalea-ace-in-the-hole",
+            "name": "Azalea, Ace in the Hole",
+            "type": "young_of"
+        },
+        "group": "Azalea",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAZ001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAZ001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAZ001.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "azalea-ace-in-the-hole",
+        "card_url": "https://cardvault.fabtcg.com/card/azalea-ace-in-the-hole",
+        "name": "Azalea, Ace in the Hole",
+        "life": 40,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": null,
+        "group": "Azalea",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AAZ001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AAZ001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AAZ001.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": "July 18, 2025"
+    },
+    {
+        "id": "baalghor-omen-of-the-end",
+        "card_url": "https://cardvault.fabtcg.com/card/baalghor-omen-of-the-end",
+        "name": "Baalghor, Omen of the End",
+        "life": 33,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "IAR",
+            "name": "Usurp the Shadow Throne"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR159-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR159-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR159-RF.webp"
+        },
+        "classes": [],
+        "retirement_date": null
+    },
+    {
+        "id": "benji-the-piercing-wind",
+        "card_url": "https://cardvault.fabtcg.com/card/benji-the-piercing-wind",
+        "name": "Benji, the Piercing Wind",
+        "life": 17,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/BEN001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/BEN001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/BEN001.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "betsy",
+        "card_url": "https://cardvault.fabtcg.com/card/betsy",
+        "name": "Betsy",
+        "life": 20,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": {
+            "id": "betsy-skin-in-the-game",
+            "name": "Betsy, Skin in the Game",
+            "type": "young_of"
+        },
+        "group": "Betsy",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY046.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY046.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY046.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "betsy-skin-in-the-game",
+        "card_url": "https://cardvault.fabtcg.com/card/betsy-skin-in-the-game",
+        "name": "Betsy, Skin in the Game",
+        "life": 40,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": null,
+        "group": "Betsy",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY045.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY045.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY045.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "blaze-firemind",
+        "card_url": "https://cardvault.fabtcg.com/card/blaze-firemind",
+        "name": "Blaze, Firemind",
+        "life": 17,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "SBZ",
+            "name": "Silver Age Chapter 3 - Blaze, Firemind"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SBZ001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SBZ001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBZ001.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "bolfar-bear-hands",
+        "card_url": "https://cardvault.fabtcg.com/card/bolfar-bear-hands",
+        "name": "Bolfar, Bear Hands",
+        "life": 20,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "SMP",
+            "name": "Smash Palace"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SMP001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SMP001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SMP001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "boltyn",
+        "card_url": "https://cardvault.fabtcg.com/card/boltyn",
+        "name": "Boltyn",
+        "life": "*",
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": {
+            "id": "ser-boltyn-breaker-of-dawn",
+            "name": "Ser Boltyn, Breaker of Dawn",
+            "type": "young_of"
+        },
+        "group": "Boltyn",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SBL001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SBL001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBL001.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "bravo",
+        "card_url": "https://cardvault.fabtcg.com/card/bravo",
+        "name": "Bravo",
+        "life": 20,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": {
+            "id": "bravo-showstopper",
+            "name": "Bravo, Showstopper",
+            "type": "young_of"
+        },
+        "group": "Bravo",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/1HB001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/1HB001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/1HB001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "bravo-flattering-showman",
+        "card_url": "https://cardvault.fabtcg.com/card/bravo-flattering-showman",
+        "name": "Bravo, Flattering Showman",
+        "life": 20,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "BDD",
+            "name": "Bravo Demo Deck"
+        },
+        "related_hero": null,
+        "group": "Bravo",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SBR001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SBR001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBR001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "bravo-showstopper",
+        "card_url": "https://cardvault.fabtcg.com/card/bravo-showstopper",
+        "name": "Bravo, Showstopper",
+        "life": 40,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": null,
+        "group": "Bravo",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU022.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU022.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU022.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "bravo-star-of-the-show",
+        "card_url": "https://cardvault.fabtcg.com/card/bravo-star-of-the-show",
+        "name": "Bravo, Star of the Show",
+        "life": 40,
+        "first_release_date": "2022-02-04",
+        "set": {
+            "code": "EVR",
+            "name": "Everfest"
+        },
+        "related_hero": null,
+        "group": "Bravo",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVR017.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVR017.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR017.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": "June 24, 2022"
+    },
+    {
+        "id": "brevant-civic-protector",
+        "card_url": "https://cardvault.fabtcg.com/card/brevant-civic-protector",
+        "name": "Brevant, Civic Protector",
+        "life": 20,
+        "first_release_date": "2023-09-29",
+        "set": {
+            "code": "TCC",
+            "name": "Round the Table: TCC x LSS"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/TCC027-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/TCC027-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TCC027-RF.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "briar",
+        "card_url": "https://cardvault.fabtcg.com/card/briar",
+        "name": "Briar",
+        "life": 20,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": {
+            "id": "briar-warden-of-thorns",
+            "name": "Briar, Warden of Thorns",
+            "type": "young_of"
+        },
+        "group": "Briar",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SBA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SBA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SBA001.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "briar-warden-of-thorns",
+        "card_url": "https://cardvault.fabtcg.com/card/briar-warden-of-thorns",
+        "name": "Briar, Warden of Thorns",
+        "life": 40,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": null,
+        "group": "Briar",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS254-MV.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS254-MV.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS254-MV.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": "September 19, 2023"
+    },
+    {
+        "id": "brutus-summa-rudis",
+        "card_url": "https://cardvault.fabtcg.com/card/brutus-summa-rudis",
+        "name": "Brutus, Summa Rudis",
+        "life": 20,
+        "first_release_date": "2023-11-01",
+        "set": {
+            "code": "JDG",
+            "name": "Judge Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/JDG077.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/JDG077.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG077.webp"
+        },
+        "classes": [
+            "Adjudicator"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "chane",
+        "card_url": "https://cardvault.fabtcg.com/card/chane",
+        "name": "Chane",
+        "life": "*",
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": {
+            "id": "chane-bound-by-shadow",
+            "name": "Chane, Bound by Shadow",
+            "type": "young_of"
+        },
+        "group": "Chane",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-MON154.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-MON154.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON154.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "chane-bound-by-shadow",
+        "card_url": "https://cardvault.fabtcg.com/card/chane-bound-by-shadow",
+        "name": "Chane, Bound by Shadow",
+        "life": 40,
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": null,
+        "group": "Chane",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ART002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ART002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ART002.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": "June 13, 2022"
+    },
+    {
+        "id": "cindra",
+        "card_url": "https://cardvault.fabtcg.com/card/cindra",
+        "name": "Cindra",
+        "life": 20,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "CIN",
+            "name": "The Hunted Blitz Deck - Cindra"
+        },
+        "related_hero": {
+            "id": "cindra-dracai-of-retribution",
+            "name": "Cindra, Dracai of Retribution",
+            "type": "young_of"
+        },
+        "group": "Cindra",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT055.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT055.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT055.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "cindra-dracai-of-retribution",
+        "card_url": "https://cardvault.fabtcg.com/card/cindra-dracai-of-retribution",
+        "name": "Cindra, Dracai of Retribution",
+        "life": 40,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "HNT",
+            "name": "The Hunted"
+        },
+        "related_hero": null,
+        "group": "Cindra",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT054.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT054.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT054.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dash",
+        "card_url": "https://cardvault.fabtcg.com/card/dash",
+        "name": "Dash",
+        "life": 20,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": {
+            "id": "dash-inventor-extraordinaire",
+            "name": "Dash, Inventor Extraordinaire",
+            "type": "young_of"
+        },
+        "group": "Dash",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SDA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SDA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SDA001.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dash-io",
+        "card_url": "https://cardvault.fabtcg.com/card/dash-io",
+        "name": "Dash I/O",
+        "life": 36,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": null,
+        "group": "Dash",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AIO001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AIO001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AIO001.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dash-database",
+        "card_url": "https://cardvault.fabtcg.com/card/dash-database",
+        "name": "Dash, Database",
+        "life": 18,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": {
+            "id": "dash-io",
+            "name": "Dash I/O",
+            "type": "young_of"
+        },
+        "group": "Dash",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVO002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVO002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVO002.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dash-inventor-extraordinaire",
+        "card_url": "https://cardvault.fabtcg.com/card/dash-inventor-extraordinaire",
+        "name": "Dash, Inventor Extraordinaire",
+        "life": 40,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": null,
+        "group": "Dash",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU098.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU098.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU098.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": "July 11, 2025"
+    },
+    {
+        "id": "data-doll-mkii",
+        "card_url": "https://cardvault.fabtcg.com/card/data-doll-mkii",
+        "name": "Data Doll MKII",
+        "life": 20,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU099.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU099.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU099.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dorinthea",
+        "card_url": "https://cardvault.fabtcg.com/card/dorinthea",
+        "name": "Dorinthea",
+        "life": 20,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": {
+            "id": "dorinthea-ironsong",
+            "name": "Dorinthea Ironsong",
+            "type": "young_of"
+        },
+        "group": "Dorinthea",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPW155-MV.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPW155-MV.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW155-MV.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dorinthea-ironsong",
+        "card_url": "https://cardvault.fabtcg.com/card/dorinthea-ironsong",
+        "name": "Dorinthea Ironsong",
+        "life": 40,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": null,
+        "group": "Dorinthea",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU076.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU076.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU076.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dorinthea-quicksilver-prodigy",
+        "card_url": "https://cardvault.fabtcg.com/card/dorinthea-quicksilver-prodigy",
+        "name": "Dorinthea, Quicksilver Prodigy",
+        "life": 20,
+        "first_release_date": "2022-05-27",
+        "set": {
+            "code": "DVR",
+            "name": "Dorinthea - Classic Battles Blitz Deck"
+        },
+        "related_hero": null,
+        "group": "Dorinthea",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPW001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPW001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW001.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dr-mortimer",
+        "card_url": "https://cardvault.fabtcg.com/card/dr-mortimer",
+        "name": "Dr. Mortimer",
+        "life": 20,
+        "first_release_date": "2026-11-14",
+        "set": {
+            "code": "MPA",
+            "name": "Mastery Pack Assassin"
+        },
+        "related_hero": {
+            "id": "dr-mortimer-blight-of-the-pits",
+            "name": "Dr. Mortimer, Blight of the Pits",
+            "type": "young_of"
+        },
+        "group": "Dr. Mortimer",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPA003.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPA003.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPA003.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dr-mortimer-blight-of-the-pits",
+        "card_url": "https://cardvault.fabtcg.com/card/dr-mortimer-blight-of-the-pits",
+        "name": "Dr. Mortimer, Blight of the Pits",
+        "life": 40,
+        "first_release_date": "2026-11-14",
+        "set": {
+            "code": "AMO",
+            "name": "Armory Deck - Dr. Mortimer, Blight of the Pits"
+        },
+        "related_hero": null,
+        "group": "Dr. Mortimer",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AMO001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AMO001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMO001-RF.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dromai",
+        "card_url": "https://cardvault.fabtcg.com/card/dromai",
+        "name": "Dromai",
+        "life": 20,
+        "first_release_date": "2022-06-24",
+        "set": {
+            "code": "UPR",
+            "name": "Uprising"
+        },
+        "related_hero": {
+            "id": "dromai-ash-artist",
+            "name": "Dromai, Ash Artist",
+            "type": "young_of"
+        },
+        "group": "Dromai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/UPR002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/UPR002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR002.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "dromai-ash-artist",
+        "card_url": "https://cardvault.fabtcg.com/card/dromai-ash-artist",
+        "name": "Dromai, Ash Artist",
+        "life": 40,
+        "first_release_date": "2022-06-24",
+        "set": {
+            "code": "UPR",
+            "name": "Uprising"
+        },
+        "related_hero": null,
+        "group": "Dromai",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/UPR001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/UPR001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": "April 16, 2024"
+    },
+    {
+        "id": "emperor-dracai-of-aesir",
+        "card_url": "https://cardvault.fabtcg.com/card/emperor-dracai-of-aesir",
+        "name": "Emperor, Dracai of Aesir",
+        "life": 15,
+        "first_release_date": "2022-11-11",
+        "set": {
+            "code": "DYN",
+            "name": "Dynasty"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DYN001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DYN001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN001-RF.webp"
+        },
+        "classes": [
+            "Warrior",
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "enigma",
+        "card_url": "https://cardvault.fabtcg.com/card/enigma",
+        "name": "Enigma",
+        "life": 20,
+        "first_release_date": "2024-05-24",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": {
+            "id": "enigma-ledger-of-ancestry",
+            "name": "Enigma, Ledger of Ancestry",
+            "type": "young_of"
+        },
+        "group": "Enigma",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEN001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEN001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEN001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "enigma-ledger-of-ancestry",
+        "card_url": "https://cardvault.fabtcg.com/card/enigma-ledger-of-ancestry",
+        "name": "Enigma, Ledger of Ancestry",
+        "life": 40,
+        "first_release_date": "2024-05-31",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": null,
+        "group": "Enigma",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST025.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST025.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST025.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": "April 25, 2025"
+    },
+    {
+        "id": "enigma-new-moon",
+        "card_url": "https://cardvault.fabtcg.com/card/enigma-new-moon",
+        "name": "Enigma, New Moon",
+        "life": 20,
+        "first_release_date": "2024-05-31",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": null,
+        "group": "Enigma",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST238-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST238-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST238-RF.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "fai",
+        "card_url": "https://cardvault.fabtcg.com/card/fai",
+        "name": "Fai",
+        "life": 20,
+        "first_release_date": "2022-06-24",
+        "set": {
+            "code": "UPR",
+            "name": "Uprising"
+        },
+        "related_hero": {
+            "id": "fai-rising-rebellion",
+            "name": "Fai, Rising Rebellion",
+            "type": "young_of"
+        },
+        "group": "Fai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SFA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SFA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SFA001.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "fai-rising-rebellion",
+        "card_url": "https://cardvault.fabtcg.com/card/fai-rising-rebellion",
+        "name": "Fai, Rising Rebellion",
+        "life": 40,
+        "first_release_date": "2022-06-24",
+        "set": {
+            "code": "UPR",
+            "name": "Uprising"
+        },
+        "related_hero": null,
+        "group": "Fai",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/UPR044.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/UPR044.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR044.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "fang",
+        "card_url": "https://cardvault.fabtcg.com/card/fang",
+        "name": "Fang",
+        "life": 20,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "FNG",
+            "name": "The Hunted Blitz Deck - Fang"
+        },
+        "related_hero": {
+            "id": "fang-dracai-of-blades",
+            "name": "Fang, Dracai of Blades",
+            "type": "young_of"
+        },
+        "group": "Fang",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT099.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT099.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT099.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "fang-dracai-of-blades",
+        "card_url": "https://cardvault.fabtcg.com/card/fang-dracai-of-blades",
+        "name": "Fang, Dracai of Blades",
+        "life": 40,
+        "first_release_date": "2025-01-31",
+        "set": {
+            "code": "HNT",
+            "name": "The Hunted"
+        },
+        "related_hero": null,
+        "group": "Fang",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HNT098.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HNT098.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HNT098.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "fightmaster-kox",
+        "card_url": "https://cardvault.fabtcg.com/card/fightmaster-kox",
+        "name": "Fightmaster Kox",
+        "life": 19,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "SMP",
+            "name": "Smash Palace"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SMP003.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SMP003.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SMP003.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "florian",
+        "card_url": "https://cardvault.fabtcg.com/card/florian",
+        "name": "Florian",
+        "life": 20,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": {
+            "id": "florian-rotwood-harbinger",
+            "name": "Florian, Rotwood Harbinger",
+            "type": "young_of"
+        },
+        "group": "Florian",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS002.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "florian-rotwood-harbinger",
+        "card_url": "https://cardvault.fabtcg.com/card/florian-rotwood-harbinger",
+        "name": "Florian, Rotwood Harbinger",
+        "life": 40,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": null,
+        "group": "Florian",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS001.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": "January 23, 2026"
+    },
+    {
+        "id": "frankie-make-ends-meat",
+        "card_url": "https://cardvault.fabtcg.com/card/frankie-make-ends-meat",
+        "name": "Frankie, Make Ends Meat",
+        "life": 20,
+        "first_release_date": "2025-07-01",
+        "set": {
+            "code": "LSS",
+            "name": "Legend Story Studio Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/LSS021-MV.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/LSS021-MV.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS021-MV.webp"
+        },
+        "classes": [
+            "Necromancer"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "genis-wotchuneed",
+        "card_url": "https://cardvault.fabtcg.com/card/genis-wotchuneed",
+        "name": "Genis Wotchuneed",
+        "life": 20,
+        "first_release_date": "2022-02-04",
+        "set": {
+            "code": "EVR",
+            "name": "Everfest"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVR085.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVR085.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVR085.webp"
+        },
+        "classes": [
+            "Merchant"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "gravy-bones",
+        "card_url": "https://cardvault.fabtcg.com/card/gravy-bones",
+        "name": "Gravy Bones",
+        "life": 20,
+        "first_release_date": "2025-05-30",
+        "set": {
+            "code": "AGB",
+            "name": "Armory Deck - Gravy Bones"
+        },
+        "related_hero": {
+            "id": "gravy-bones-shipwrecked-looter",
+            "name": "Gravy Bones, Shipwrecked Looter",
+            "type": "young_of"
+        },
+        "group": "Gravy Bones",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SGB001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SGB001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SGB001.webp"
+        },
+        "classes": [
+            "Necromancer",
+            "Pirate"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "gravy-bones-shipwrecked-looter",
+        "card_url": "https://cardvault.fabtcg.com/card/gravy-bones-shipwrecked-looter",
+        "name": "Gravy Bones, Shipwrecked Looter",
+        "life": 40,
+        "first_release_date": "2025-05-30",
+        "set": {
+            "code": "AGB",
+            "name": "Armory Deck - Gravy Bones"
+        },
+        "related_hero": null,
+        "group": "Gravy Bones",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA043.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA043.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA043.webp"
+        },
+        "classes": [
+            "Necromancer",
+            "Pirate"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "groundbreaker-crix",
+        "card_url": "https://cardvault.fabtcg.com/card/groundbreaker-crix",
+        "name": "Groundbreaker Crix",
+        "life": 20,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "SMP",
+            "name": "Smash Palace"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SMP004.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SMP004.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SMP004.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "hala",
+        "card_url": "https://cardvault.fabtcg.com/card/hala",
+        "name": "Hala",
+        "life": 20,
+        "first_release_date": "2026-08-07",
+        "set": {
+            "code": "MPW",
+            "name": "Mastery Pack Warrior"
+        },
+        "related_hero": {
+            "id": "hala-bladesaint-of-the-vow",
+            "name": "Hala, Bladesaint of the Vow",
+            "type": "young_of"
+        },
+        "group": "Hala",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPW004.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPW004.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW004.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "hala-bladesaint-of-the-vow",
+        "card_url": "https://cardvault.fabtcg.com/card/hala-bladesaint-of-the-vow",
+        "name": "Hala, Bladesaint of the Vow",
+        "life": 40,
+        "first_release_date": "2026-04-17",
+        "set": {
+            "code": "AHA",
+            "name": "Armory Deck - Hala, Bladesaint of the Vow"
+        },
+        "related_hero": null,
+        "group": "Hala",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPW003.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPW003.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW003.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "ira-crimson-haze",
+        "card_url": "https://cardvault.fabtcg.com/card/ira-crimson-haze",
+        "name": "Ira, Crimson Haze",
+        "life": 20,
+        "first_release_date": "2019-08-31",
+        "set": {
+            "code": "IRA",
+            "name": "Ira Welcome Deck"
+        },
+        "related_hero": {
+            "id": "ira-scarlet-revenger",
+            "name": "Ira, Scarlet Revenger",
+            "type": "young_of"
+        },
+        "group": "Ira",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/TCC077-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/TCC077-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TCC077-RF.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "ira-scarlet-revenger",
+        "card_url": "https://cardvault.fabtcg.com/card/ira-scarlet-revenger",
+        "name": "Ira, Scarlet Revenger",
+        "life": 40,
+        "first_release_date": "2025-07-11",
+        "set": {
+            "code": "ASR",
+            "name": "Amory Deck - Ira, Scarlet Revenger"
+        },
+        "related_hero": null,
+        "group": "Ira",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ASR001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ASR001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ASR001-RF.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "iyslander",
+        "card_url": "https://cardvault.fabtcg.com/card/iyslander",
+        "name": "Iyslander",
+        "life": 18,
+        "first_release_date": "2022-02-04",
+        "set": {
+            "code": "EVR",
+            "name": "Everfest"
+        },
+        "related_hero": {
+            "id": "iyslander-stormbind",
+            "name": "Iyslander, Stormbind",
+            "type": "young_of"
+        },
+        "group": "Iyslander",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SIY001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SIY001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SIY001.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "iyslander-stormbind",
+        "card_url": "https://cardvault.fabtcg.com/card/iyslander-stormbind",
+        "name": "Iyslander, Stormbind",
+        "life": 36,
+        "first_release_date": "2022-06-24",
+        "set": {
+            "code": "UPR",
+            "name": "Uprising"
+        },
+        "related_hero": null,
+        "group": "Iyslander",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/UPR102.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/UPR102.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/UPR102.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": "December 1, 2023"
+    },
+    {
+        "id": "jarl-vetreidi",
+        "card_url": "https://cardvault.fabtcg.com/card/jarl-vetreidi",
+        "name": "Jarl Vetreiði",
+        "life": 40,
+        "first_release_date": "2024-11-29",
+        "set": {
+            "code": "AJV",
+            "name": "Armory Deck Origins - Jarl Vetreiði"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AJV001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AJV001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AJV001-RF.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kano",
+        "card_url": "https://cardvault.fabtcg.com/card/kano",
+        "name": "Kano",
+        "life": 15,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": {
+            "id": "kano-dracai-of-aether",
+            "name": "Kano, Dracai of Aether",
+            "type": "young_of"
+        },
+        "group": "Kano",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/1HK001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/1HK001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/1HK001.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kano-dracai-of-aether",
+        "card_url": "https://cardvault.fabtcg.com/card/kano-dracai-of-aether",
+        "name": "Kano, Dracai of Aether",
+        "life": 30,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": null,
+        "group": "Kano",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU158.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU158.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU158.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": "December 19, 2025"
+    },
+    {
+        "id": "kassai",
+        "card_url": "https://cardvault.fabtcg.com/card/kassai",
+        "name": "Kassai",
+        "life": 20,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": {
+            "id": "kassai-of-the-golden-sand",
+            "name": "Kassai of the Golden Sand",
+            "type": "young_of"
+        },
+        "group": "Kassai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY091.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY091.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY091.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kassai-of-the-golden-sand",
+        "card_url": "https://cardvault.fabtcg.com/card/kassai-of-the-golden-sand",
+        "name": "Kassai of the Golden Sand",
+        "life": 40,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": null,
+        "group": "Kassai",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY090.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY090.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY090.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kassai-cintari-sellsword",
+        "card_url": "https://cardvault.fabtcg.com/card/kassai-cintari-sellsword",
+        "name": "Kassai, Cintari Sellsword",
+        "life": 20,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": "Kassai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU077.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU077.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU077.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "katsu",
+        "card_url": "https://cardvault.fabtcg.com/card/katsu",
+        "name": "Katsu",
+        "life": 20,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": {
+            "id": "katsu-the-wanderer",
+            "name": "Katsu, the Wanderer",
+            "type": "young_of"
+        },
+        "group": "Katsu",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/KAT001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/KAT001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/KAT001.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "katsu-the-wanderer",
+        "card_url": "https://cardvault.fabtcg.com/card/katsu-the-wanderer",
+        "name": "Katsu, the Wanderer",
+        "life": 40,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": null,
+        "group": "Katsu",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OUT045.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OUT045.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT045.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kavdaen-trader-of-skins",
+        "card_url": "https://cardvault.fabtcg.com/card/kavdaen-trader-of-skins",
+        "name": "Kavdaen, Trader of Skins",
+        "life": 20,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU118.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU118.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU118.webp"
+        },
+        "classes": [
+            "Merchant"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kayo",
+        "card_url": "https://cardvault.fabtcg.com/card/kayo",
+        "name": "Kayo",
+        "life": 20,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": {
+            "id": "kayo-armed-and-dangerous",
+            "name": "Kayo, Armed and Dangerous",
+            "type": "young_of"
+        },
+        "group": "Kayo",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SKA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SKA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SKA001.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kayo-armed-and-dangerous",
+        "card_url": "https://cardvault.fabtcg.com/card/kayo-armed-and-dangerous",
+        "name": "Kayo, Armed and Dangerous",
+        "life": 40,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": null,
+        "group": "Kayo",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AKO001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AKO001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AKO001.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": "March 13, 2026"
+    },
+    {
+        "id": "kayo-berserker-runt",
+        "card_url": "https://cardvault.fabtcg.com/card/kayo-berserker-runt",
+        "name": "Kayo, Berserker Runt",
+        "life": 19,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": "Kayo",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU002.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kayo-strong-arm",
+        "card_url": "https://cardvault.fabtcg.com/card/kayo-strong-arm",
+        "name": "Kayo, Strong-arm",
+        "life": 20,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": {
+            "id": "kayo-underhanded-cheat",
+            "name": "Kayo, Underhanded Cheat",
+            "type": "young_of"
+        },
+        "group": "Kayo",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP064.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP064.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP064.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "kayo-underhanded-cheat",
+        "card_url": "https://cardvault.fabtcg.com/card/kayo-underhanded-cheat",
+        "name": "Kayo, Underhanded Cheat",
+        "life": 40,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": null,
+        "group": "Kayo",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP063.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP063.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP063.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "killjoy-the-crooked-blade",
+        "card_url": "https://cardvault.fabtcg.com/card/killjoy-the-crooked-blade",
+        "name": "Killjoy, the Crooked Blade",
+        "life": 20,
+        "first_release_date": "2026-10-30",
+        "set": {
+            "code": "SPW",
+            "name": "Smash Palace - Chorus of Steel"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SPW001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SPW001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SPW001-RF.webp"
+        },
+        "classes": [
+            "Thief",
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "levia",
+        "card_url": "https://cardvault.fabtcg.com/card/levia",
+        "name": "Levia",
+        "life": "*",
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": {
+            "id": "levia-shadowborn-abomination",
+            "name": "Levia, Shadowborn Abomination",
+            "type": "young_of"
+        },
+        "group": "Levia",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR002.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "levia-redeemed--blasmophet-levia-consumed",
+        "card_url": "https://cardvault.fabtcg.com/card/levia-redeemed--blasmophet-levia-consumed",
+        "name": "Levia, Redeemed",
+        "life": 8,
+        "first_release_date": "2023-07-14",
+        "set": {
+            "code": "DTD",
+            "name": "Dusk till Dawn"
+        },
+        "related_hero": null,
+        "group": "Levia",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DTD164.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DTD164.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DTD164.webp"
+        },
+        "classes": [],
+        "retirement_date": null
+    },
+    {
+        "id": "levia-shadowborn-abomination",
+        "card_url": "https://cardvault.fabtcg.com/card/levia-shadowborn-abomination",
+        "name": "Levia, Shadowborn Abomination",
+        "life": 40,
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": null,
+        "group": "Levia",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DTD103.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DTD103.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DTD103.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "lexi",
+        "card_url": "https://cardvault.fabtcg.com/card/lexi",
+        "name": "Lexi",
+        "life": 20,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": {
+            "id": "lexi-livewire",
+            "name": "Lexi, Livewire",
+            "type": "young_of"
+        },
+        "group": "Lexi",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-ELE032.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-ELE032.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE032.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "lexi-livewire",
+        "card_url": "https://cardvault.fabtcg.com/card/lexi-livewire",
+        "name": "Lexi, Livewire",
+        "life": 40,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": null,
+        "group": "Lexi",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-ELE031.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-ELE031.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE031.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": "October 23, 2023"
+    },
+    {
+        "id": "lyath-goldmane",
+        "card_url": "https://cardvault.fabtcg.com/card/lyath-goldmane",
+        "name": "Lyath Goldmane",
+        "life": 20,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": {
+            "id": "lyath-goldmane-vile-savant",
+            "name": "Lyath Goldmane, Vile Savant",
+            "type": "young_of"
+        },
+        "group": "Lyath Goldmane",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SLY001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SLY001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SLY001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "lyath-goldmane-vile-savant",
+        "card_url": "https://cardvault.fabtcg.com/card/lyath-goldmane-vile-savant",
+        "name": "Lyath Goldmane, Vile Savant",
+        "life": 40,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": null,
+        "group": "Lyath Goldmane",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP071.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP071.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP071.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "malice",
+        "card_url": "https://cardvault.fabtcg.com/card/malice",
+        "name": "Malice",
+        "life": 20,
+        "first_release_date": "2026-09-25",
+        "set": {
+            "code": "IAR",
+            "name": "Usurp the Shadow Throne"
+        },
+        "related_hero": {
+            "id": "malice-domina-of-the-dead",
+            "name": "Malice, Domina of the Dead",
+            "type": "young_of"
+        },
+        "group": "Malice",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR054.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR054.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR054.webp"
+        },
+        "classes": [
+            "Necromancer"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "malice-domina-of-the-dead",
+        "card_url": "https://cardvault.fabtcg.com/card/malice-domina-of-the-dead",
+        "name": "Malice, Domina of the Dead",
+        "life": 40,
+        "first_release_date": "2026-09-18",
+        "set": {
+            "code": "AMA",
+            "name": "Armory Deck - Malice, Domina of the Dead"
+        },
+        "related_hero": null,
+        "group": "Malice",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR053.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR053.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR053.webp"
+        },
+        "classes": [
+            "Necromancer"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "marlynn",
+        "card_url": "https://cardvault.fabtcg.com/card/marlynn",
+        "name": "Marlynn",
+        "life": 20,
+        "first_release_date": "2025-06-06",
+        "set": {
+            "code": "SEA",
+            "name": "High Seas"
+        },
+        "related_hero": {
+            "id": "marlynn-treasure-hunter",
+            "name": "Marlynn, Treasure Hunter",
+            "type": "young_of"
+        },
+        "group": "Marlynn",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA083.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA083.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA083.webp"
+        },
+        "classes": [
+            "Pirate",
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "marlynn-treasure-hunter",
+        "card_url": "https://cardvault.fabtcg.com/card/marlynn-treasure-hunter",
+        "name": "Marlynn, Treasure Hunter",
+        "life": 40,
+        "first_release_date": "2025-06-06",
+        "set": {
+            "code": "SEA",
+            "name": "High Seas"
+        },
+        "related_hero": null,
+        "group": "Marlynn",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA082.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA082.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA082.webp"
+        },
+        "classes": [
+            "Pirate",
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "maxx-the-hype-nitro",
+        "card_url": "https://cardvault.fabtcg.com/card/maxx-the-hype-nitro",
+        "name": "Maxx 'The Hype' Nitro",
+        "life": 40,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": null,
+        "group": "Maxx Nitro",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AMX001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AMX001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AMX001.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "maxx-nitro",
+        "card_url": "https://cardvault.fabtcg.com/card/maxx-nitro",
+        "name": "Maxx Nitro",
+        "life": 20,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": {
+            "id": "maxx-the-hype-nitro",
+            "name": "Maxx 'The Hype' Nitro",
+            "type": "young_of"
+        },
+        "group": "Maxx Nitro",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVO005.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVO005.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVO005.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "melody-sing-along",
+        "card_url": "https://cardvault.fabtcg.com/card/melody-sing-along",
+        "name": "Melody, Sing-along",
+        "life": 20,
+        "first_release_date": "2023-09-29",
+        "set": {
+            "code": "TCC",
+            "name": "Round the Table: TCC x LSS"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/TCC049-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/TCC049-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TCC049-RF.webp"
+        },
+        "classes": [
+            "Bard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "nuu",
+        "card_url": "https://cardvault.fabtcg.com/card/nuu",
+        "name": "Nuu",
+        "life": 20,
+        "first_release_date": "2024-05-24",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": {
+            "id": "nuu-alluring-desire",
+            "name": "Nuu, Alluring Desire",
+            "type": "young_of"
+        },
+        "group": "Nuu",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST002.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "nuu-alluring-desire",
+        "card_url": "https://cardvault.fabtcg.com/card/nuu-alluring-desire",
+        "name": "Nuu, Alluring Desire",
+        "life": 40,
+        "first_release_date": "2024-05-31",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": null,
+        "group": "Nuu",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": "June 20, 2025"
+    },
+    {
+        "id": "oldhim",
+        "card_url": "https://cardvault.fabtcg.com/card/oldhim",
+        "name": "Oldhim",
+        "life": 20,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": {
+            "id": "oldhim-grandfather-of-eternity",
+            "name": "Oldhim, Grandfather of Eternity",
+            "type": "young_of"
+        },
+        "group": "Oldhim",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-ELE002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-ELE002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE002.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "oldhim-grandfather-of-eternity",
+        "card_url": "https://cardvault.fabtcg.com/card/oldhim-grandfather-of-eternity",
+        "name": "Oldhim, Grandfather of Eternity",
+        "life": 40,
+        "first_release_date": "2021-09-24",
+        "set": {
+            "code": "ELE",
+            "name": "Tales of Aria"
+        },
+        "related_hero": null,
+        "group": "Oldhim",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-ELE001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-ELE001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-ELE001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": "May 22, 2023"
+    },
+    {
+        "id": "olympia",
+        "card_url": "https://cardvault.fabtcg.com/card/olympia",
+        "name": "Olympia",
+        "life": 20,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": {
+            "id": "olympia-prized-fighter",
+            "name": "Olympia, Prized Fighter",
+            "type": "young_of"
+        },
+        "group": "Olympia",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPW006.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPW006.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPW006.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "olympia-prized-fighter",
+        "card_url": "https://cardvault.fabtcg.com/card/olympia-prized-fighter",
+        "name": "Olympia, Prized Fighter",
+        "life": 40,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": null,
+        "group": "Olympia",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AOL001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AOL001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AOL001.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "oscilio",
+        "card_url": "https://cardvault.fabtcg.com/card/oscilio",
+        "name": "Oscilio",
+        "life": 18,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": {
+            "id": "oscilio-constella-intelligence",
+            "name": "Oscilio, Constella Intelligence",
+            "type": "young_of"
+        },
+        "group": "Oscilio",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS020.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS020.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS020.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "oscilio-constella-intelligence",
+        "card_url": "https://cardvault.fabtcg.com/card/oscilio-constella-intelligence",
+        "name": "Oscilio, Constella Intelligence",
+        "life": 36,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": null,
+        "group": "Oscilio",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS019.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS019.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS019.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "oscilio-forked-continuum",
+        "card_url": "https://cardvault.fabtcg.com/card/oscilio-forked-continuum",
+        "name": "Oscilio, Forked Continuum",
+        "life": 38,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "OMN",
+            "name": "Omens of the Third Age"
+        },
+        "related_hero": null,
+        "group": "Oscilio",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN094.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN094.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN094.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "oscilio-scion-of-the-third-age",
+        "card_url": "https://cardvault.fabtcg.com/card/oscilio-scion-of-the-third-age",
+        "name": "Oscilio, Scion of the Third Age",
+        "life": 19,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "OMN",
+            "name": "Omens of the Third Age"
+        },
+        "related_hero": {
+            "id": "oscilio-forked-continuum",
+            "name": "Oscilio, Forked Continuum",
+            "type": "young_of"
+        },
+        "group": "Oscilio",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN095.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN095.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN095.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "pleiades",
+        "card_url": "https://cardvault.fabtcg.com/card/pleiades",
+        "name": "Pleiades",
+        "life": 20,
+        "first_release_date": "2025-09-19",
+        "set": {
+            "code": "APS",
+            "name": "Armory Deck - Pleiades, Superstar"
+        },
+        "related_hero": {
+            "id": "pleiades-superstar",
+            "name": "Pleiades, Superstar",
+            "type": "young_of"
+        },
+        "group": "Pleiades",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP010.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP010.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP010.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "pleiades-superstar",
+        "card_url": "https://cardvault.fabtcg.com/card/pleiades-superstar",
+        "name": "Pleiades, Superstar",
+        "life": 40,
+        "first_release_date": "2025-09-19",
+        "set": {
+            "code": "APS",
+            "name": "Armory Deck - Pleiades, Superstar"
+        },
+        "related_hero": null,
+        "group": "Pleiades",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP009.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP009.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP009.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "prism",
+        "card_url": "https://cardvault.fabtcg.com/card/prism",
+        "name": "Prism",
+        "life": "*",
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": {
+            "id": "prism-sculptor-of-arc-light",
+            "name": "Prism, Sculptor of Arc Light",
+            "type": "young_of"
+        },
+        "group": "Prism",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-MON002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-MON002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-MON002.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "prism-advent-of-thrones",
+        "card_url": "https://cardvault.fabtcg.com/card/prism-advent-of-thrones",
+        "name": "Prism, Advent of Thrones",
+        "life": 16,
+        "first_release_date": "2023-07-14",
+        "set": {
+            "code": "DTD",
+            "name": "Dusk till Dawn"
+        },
+        "related_hero": {
+            "id": "prism-awakener-of-sol",
+            "name": "Prism, Awakener of Sol",
+            "type": "young_of"
+        },
+        "group": "Prism",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SAT001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SAT001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SAT001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "prism-awakener-of-sol",
+        "card_url": "https://cardvault.fabtcg.com/card/prism-awakener-of-sol",
+        "name": "Prism, Awakener of Sol",
+        "life": 32,
+        "first_release_date": "2023-07-14",
+        "set": {
+            "code": "DTD",
+            "name": "Dusk till Dawn"
+        },
+        "related_hero": null,
+        "group": "Prism",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DTD001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DTD001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DTD001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": "July 3, 2026"
+    },
+    {
+        "id": "prism-sculptor-of-arc-light",
+        "card_url": "https://cardvault.fabtcg.com/card/prism-sculptor-of-arc-light",
+        "name": "Prism, Sculptor of Arc Light",
+        "life": 40,
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": null,
+        "group": "Prism",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/APR001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/APR001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/APR001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": "August 29, 2022"
+    },
+    {
+        "id": "professor-teklovossen",
+        "card_url": "https://cardvault.fabtcg.com/card/professor-teklovossen",
+        "name": "Professor Teklovossen",
+        "life": 20,
+        "first_release_date": "2023-09-29",
+        "set": {
+            "code": "TCC",
+            "name": "Round the Table: TCC x LSS"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/TCC001-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/TCC001-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TCC001-RF.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "puffin",
+        "card_url": "https://cardvault.fabtcg.com/card/puffin",
+        "name": "Puffin",
+        "life": 20,
+        "first_release_date": "2025-06-06",
+        "set": {
+            "code": "SEA",
+            "name": "High Seas"
+        },
+        "related_hero": {
+            "id": "puffin-hightail",
+            "name": "Puffin, Hightail",
+            "type": "young_of"
+        },
+        "group": "Puffin",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA002.webp"
+        },
+        "classes": [
+            "Mechanologist",
+            "Pirate"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "puffin-hightail",
+        "card_url": "https://cardvault.fabtcg.com/card/puffin-hightail",
+        "name": "Puffin, Hightail",
+        "life": 40,
+        "first_release_date": "2025-06-06",
+        "set": {
+            "code": "SEA",
+            "name": "High Seas"
+        },
+        "related_hero": null,
+        "group": "Puffin",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA001.webp"
+        },
+        "classes": [
+            "Mechanologist",
+            "Pirate"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "reya-the-unyielding",
+        "card_url": "https://cardvault.fabtcg.com/card/reya-the-unyielding",
+        "name": "Reya, the Unyielding",
+        "life": 21,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "SMP",
+            "name": "Smash Palace"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SMP005.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SMP005.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SMP005.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "rhinar",
+        "card_url": "https://cardvault.fabtcg.com/card/rhinar",
+        "name": "Rhinar",
+        "life": 20,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": {
+            "id": "rhinar-reckless-rampage",
+            "name": "Rhinar, Reckless Rampage",
+            "type": "young_of"
+        },
+        "group": "Rhinar",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY004.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY004.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY004.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "rhinar-reckless-rampage",
+        "card_url": "https://cardvault.fabtcg.com/card/rhinar-reckless-rampage",
+        "name": "Rhinar, Reckless Rampage",
+        "life": 40,
+        "first_release_date": "2019-10-11",
+        "set": {
+            "code": "WTR",
+            "name": "Welcome to Rathe"
+        },
+        "related_hero": null,
+        "group": "Rhinar",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ARR001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ARR001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ARR001.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "riptide",
+        "card_url": "https://cardvault.fabtcg.com/card/riptide",
+        "name": "Riptide",
+        "life": 19,
+        "first_release_date": "2023-03-24",
+        "set": {
+            "code": "OUT",
+            "name": "Outsiders"
+        },
+        "related_hero": {
+            "id": "riptide-lurker-of-the-deep",
+            "name": "Riptide, Lurker of the Deep",
+            "type": "young_of"
+        },
+        "group": "Riptide",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OUT092.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OUT092.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT092.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "riptide-lurker-of-the-deep",
+        "card_url": "https://cardvault.fabtcg.com/card/riptide-lurker-of-the-deep",
+        "name": "Riptide, Lurker of the Deep",
+        "life": 38,
+        "first_release_date": "2023-03-24",
+        "set": {
+            "code": "OUT",
+            "name": "Outsiders"
+        },
+        "related_hero": null,
+        "group": "Riptide",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OUT091.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OUT091.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT091.webp"
+        },
+        "classes": [
+            "Ranger"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "ruudi-gem-keeper",
+        "card_url": "https://cardvault.fabtcg.com/card/ruudi-gem-keeper",
+        "name": "Ruu'di, Gem Keeper",
+        "life": 40,
+        "first_release_date": "2019-08-01",
+        "set": {
+            "code": "LSS",
+            "name": "Legend Story Studio Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/LSS001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/LSS001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS001.webp"
+        },
+        "classes": [
+            "Merchant"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "scurv-stowaway",
+        "card_url": "https://cardvault.fabtcg.com/card/scurv-stowaway",
+        "name": "Scurv, Stowaway",
+        "life": 20,
+        "first_release_date": "2025-06-06",
+        "set": {
+            "code": "SEA",
+            "name": "High Seas"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SEA123.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SEA123.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SEA123.webp"
+        },
+        "classes": [
+            "Pirate",
+            "Thief"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "ser-boltyn-breaker-of-dawn",
+        "card_url": "https://cardvault.fabtcg.com/card/ser-boltyn-breaker-of-dawn",
+        "name": "Ser Boltyn, Breaker of Dawn",
+        "life": 40,
+        "first_release_date": "2021-05-07",
+        "set": {
+            "code": "MON",
+            "name": "Monarch"
+        },
+        "related_hero": null,
+        "group": "Boltyn",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ASB001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ASB001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ASB001.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "shiyana-diamond-gemini",
+        "card_url": "https://cardvault.fabtcg.com/card/shiyana-diamond-gemini",
+        "name": "Shiyana, Diamond Gemini",
+        "life": 20,
+        "first_release_date": "2020-08-28",
+        "set": {
+            "code": "CRU",
+            "name": "Crucible of War"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/U-CRU097-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/U-CRU097-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/U-CRU097-RF.webp"
+        },
+        "classes": [
+            "Shapeshifter"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "squizzy-floof",
+        "card_url": "https://cardvault.fabtcg.com/card/squizzy-floof",
+        "name": "Squizzy & Floof",
+        "life": 20,
+        "first_release_date": "2023-07-01",
+        "set": {
+            "code": "HER",
+            "name": "Hero Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HER101-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HER101-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HER101-RF.webp"
+        },
+        "classes": [
+            "Merchant"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "taipanis-dracai-of-judgement",
+        "card_url": "https://cardvault.fabtcg.com/card/taipanis-dracai-of-judgement",
+        "name": "Taipanis, Dracai of Judgement",
+        "life": 20,
+        "first_release_date": "2022-03-01",
+        "set": {
+            "code": "JDG",
+            "name": "Judge Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/JDG079.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/JDG079.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG079.webp"
+        },
+        "classes": [
+            "Adjudicator"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "taylor",
+        "card_url": "https://cardvault.fabtcg.com/card/taylor",
+        "name": "Taylor",
+        "life": 18,
+        "first_release_date": "2022-02-01",
+        "set": {
+            "code": "LSS",
+            "name": "Legend Story Studio Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/LSS003-CF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/LSS003-CF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS003-CF.webp"
+        },
+        "classes": [
+            "Shapeshifter"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "teklovossen",
+        "card_url": "https://cardvault.fabtcg.com/card/teklovossen",
+        "name": "Teklovossen",
+        "life": 20,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": {
+            "id": "teklovossen-esteemed-magnate",
+            "name": "Teklovossen, Esteemed Magnate",
+            "type": "young_of"
+        },
+        "group": "Teklovossen",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVO008.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVO008.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVO008.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "teklovossen-esteemed-magnate",
+        "card_url": "https://cardvault.fabtcg.com/card/teklovossen-esteemed-magnate",
+        "name": "Teklovossen, Esteemed Magnate",
+        "life": 40,
+        "first_release_date": "2023-10-06",
+        "set": {
+            "code": "EVO",
+            "name": "Bright Lights"
+        },
+        "related_hero": null,
+        "group": "Teklovossen",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/EVO007.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/EVO007.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/EVO007.webp"
+        },
+        "classes": [
+            "Mechanologist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "terra",
+        "card_url": "https://cardvault.fabtcg.com/card/terra",
+        "name": "Terra",
+        "life": 20,
+        "first_release_date": "2024-08-01",
+        "set": {
+            "code": "TER",
+            "name": "1st Strike - Terra"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/TER001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/TER001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/TER001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "the-librarian-magister-of-history",
+        "card_url": "https://cardvault.fabtcg.com/card/the-librarian-magister-of-history",
+        "name": "The Librarian, Magister of History",
+        "life": 20,
+        "first_release_date": "2025-09-27",
+        "set": {
+            "code": "JDG",
+            "name": "Judge Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/JDG062-CF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/JDG062-CF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG062-CF.webp"
+        },
+        "classes": [
+            "Adjudicator"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "theryon-magister-of-justice",
+        "card_url": "https://cardvault.fabtcg.com/card/theryon-magister-of-justice",
+        "name": "Theryon, Magister of Justice",
+        "life": 20,
+        "first_release_date": "2022-12-01",
+        "set": {
+            "code": "JDG",
+            "name": "Judge Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/JDG081.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/JDG081.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/JDG081.webp"
+        },
+        "classes": [
+            "Adjudicator"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "tuffnut",
+        "card_url": "https://cardvault.fabtcg.com/card/tuffnut",
+        "name": "Tuffnut",
+        "life": 20,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": {
+            "id": "tuffnut-bumbling-hulkster",
+            "name": "Tuffnut, Bumbling Hulkster",
+            "type": "young_of"
+        },
+        "group": "Tuffnut",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP002.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "tuffnut-bumbling-hulkster",
+        "card_url": "https://cardvault.fabtcg.com/card/tuffnut-bumbling-hulkster",
+        "name": "Tuffnut, Bumbling Hulkster",
+        "life": 40,
+        "first_release_date": "2025-09-26",
+        "set": {
+            "code": "SUP",
+            "name": "Super Slam"
+        },
+        "related_hero": null,
+        "group": "Tuffnut",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SUP001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SUP001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SUP001.webp"
+        },
+        "classes": [
+            "Brute"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "uzuri",
+        "card_url": "https://cardvault.fabtcg.com/card/uzuri",
+        "name": "Uzuri",
+        "life": 20,
+        "first_release_date": "2023-03-24",
+        "set": {
+            "code": "OUT",
+            "name": "Outsiders"
+        },
+        "related_hero": {
+            "id": "uzuri-switchblade",
+            "name": "Uzuri, Switchblade",
+            "type": "young_of"
+        },
+        "group": "Uzuri",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPA004.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPA004.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPA004.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "uzuri-switchblade",
+        "card_url": "https://cardvault.fabtcg.com/card/uzuri-switchblade",
+        "name": "Uzuri, Switchblade",
+        "life": 40,
+        "first_release_date": "2023-03-24",
+        "set": {
+            "code": "OUT",
+            "name": "Outsiders"
+        },
+        "related_hero": null,
+        "group": "Uzuri",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OUT001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OUT001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OUT001.webp"
+        },
+        "classes": [
+            "Assassin"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "valda-brightaxe",
+        "card_url": "https://cardvault.fabtcg.com/card/valda-brightaxe",
+        "name": "Valda Brightaxe",
+        "life": 21,
+        "first_release_date": "2022-02-04",
+        "set": {
+            "code": "EVR",
+            "name": "Everfest"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPG002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPG002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPG002.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "valda-seismic-impact",
+        "card_url": "https://cardvault.fabtcg.com/card/valda-seismic-impact",
+        "name": "Valda, Seismic Impact",
+        "life": 40,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "MPG",
+            "name": "Mastery Pack - Guardian"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MPG001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MPG001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MPG001.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "verdance",
+        "card_url": "https://cardvault.fabtcg.com/card/verdance",
+        "name": "Verdance",
+        "life": 20,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "VER",
+            "name": "Rosetta Blitz Deck - Verdance"
+        },
+        "related_hero": {
+            "id": "verdance-thorn-of-the-rose",
+            "name": "Verdance, Thorn of the Rose",
+            "type": "young_of"
+        },
+        "group": "Verdance",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS014.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS014.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS014.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "verdance-thorn-of-the-rose",
+        "card_url": "https://cardvault.fabtcg.com/card/verdance-thorn-of-the-rose",
+        "name": "Verdance, Thorn of the Rose",
+        "life": 40,
+        "first_release_date": "2024-09-20",
+        "set": {
+            "code": "ROS",
+            "name": "Rosetta"
+        },
+        "related_hero": null,
+        "group": "Verdance",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/ROS013.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/ROS013.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/ROS013.webp"
+        },
+        "classes": [
+            "Wizard"
+        ],
+        "retirement_date": "March 20, 2026"
+    },
+    {
+        "id": "victor-goldmane",
+        "card_url": "https://cardvault.fabtcg.com/card/victor-goldmane",
+        "name": "Victor Goldmane",
+        "life": 20,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": {
+            "id": "victor-goldmane-high-and-mighty",
+            "name": "Victor Goldmane, High and Mighty",
+            "type": "young_of"
+        },
+        "group": "Victor Goldmane",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY048.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY048.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY048.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "victor-goldmane-high-and-mighty",
+        "card_url": "https://cardvault.fabtcg.com/card/victor-goldmane-high-and-mighty",
+        "name": "Victor Goldmane, High and Mighty",
+        "life": 40,
+        "first_release_date": "2024-02-02",
+        "set": {
+            "code": "HVY",
+            "name": "Heavy Hitters"
+        },
+        "related_hero": null,
+        "group": "Victor Goldmane",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/HVY047.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/HVY047.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/HVY047.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": "July 10, 2026"
+    },
+    {
+        "id": "victor-goldmane-match-fixer",
+        "card_url": "https://cardvault.fabtcg.com/card/victor-goldmane-match-fixer",
+        "name": "Victor Goldmane, Match Fixer",
+        "life": 20,
+        "first_release_date": "2025-08-08",
+        "set": {
+            "code": "SMP",
+            "name": "Smash Palace"
+        },
+        "related_hero": null,
+        "group": "Victor Goldmane",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SMP006.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SMP006.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SMP006.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "viserai",
+        "card_url": "https://cardvault.fabtcg.com/card/viserai",
+        "name": "Viserai",
+        "life": 20,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": {
+            "id": "viserai-rune-blood",
+            "name": "Viserai, Rune Blood",
+            "type": "young_of"
+        },
+        "group": "Viserai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SVI001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SVI001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SVI001.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "viserai-between-worlds--viserai-usurper",
+        "card_url": "https://cardvault.fabtcg.com/card/viserai-between-worlds--viserai-usurper",
+        "name": "Viserai, Between Worlds",
+        "life": 20,
+        "first_release_date": "2026-09-18",
+        "set": {
+            "code": "SBW",
+            "name": "Silver Age - Viserai, Between Worlds"
+        },
+        "related_hero": {
+            "id": "viserai-the-forsaken--viserai-usurper",
+            "name": "Viserai, the Forsaken",
+            "type": "young_of"
+        },
+        "group": "Viserai",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR107.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR107.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR107.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "viserai-rune-blood",
+        "card_url": "https://cardvault.fabtcg.com/card/viserai-rune-blood",
+        "name": "Viserai, Rune Blood",
+        "life": 40,
+        "first_release_date": "2020-03-27",
+        "set": {
+            "code": "ARC",
+            "name": "Arcane Rising"
+        },
+        "related_hero": null,
+        "group": "Viserai",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/AVS001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/AVS001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/AVS001.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": "February 25, 2025"
+    },
+    {
+        "id": "viserai-the-forsaken--viserai-usurper",
+        "card_url": "https://cardvault.fabtcg.com/card/viserai-the-forsaken--viserai-usurper",
+        "name": "Viserai, the Forsaken",
+        "life": 40,
+        "first_release_date": "2026-09-25",
+        "set": {
+            "code": "IAR",
+            "name": "Usurp the Shadow Throne"
+        },
+        "related_hero": null,
+        "group": "Viserai",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/IAR106.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/IAR106.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/IAR106.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "vynnset",
+        "card_url": "https://cardvault.fabtcg.com/card/vynnset",
+        "name": "Vynnset",
+        "life": 20,
+        "first_release_date": "2023-07-14",
+        "set": {
+            "code": "DTD",
+            "name": "Dusk till Dawn"
+        },
+        "related_hero": {
+            "id": "vynnset-iron-maiden",
+            "name": "Vynnset, Iron Maiden",
+            "type": "young_of"
+        },
+        "group": "Vynnset",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DTD134.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DTD134.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DTD134.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "vynnset-iron-maiden",
+        "card_url": "https://cardvault.fabtcg.com/card/vynnset-iron-maiden",
+        "name": "Vynnset, Iron Maiden",
+        "life": 40,
+        "first_release_date": "2023-07-14",
+        "set": {
+            "code": "DTD",
+            "name": "Dusk till Dawn"
+        },
+        "related_hero": null,
+        "group": "Vynnset",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DTD133.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DTD133.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DTD133.webp"
+        },
+        "classes": [
+            "Runeblade"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "yoji-royal-protector",
+        "card_url": "https://cardvault.fabtcg.com/card/yoji-royal-protector",
+        "name": "Yoji, Royal Protector",
+        "life": 22,
+        "first_release_date": "2022-11-11",
+        "set": {
+            "code": "DYN",
+            "name": "Dynasty"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/DYN025.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/DYN025.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/DYN025.webp"
+        },
+        "classes": [
+            "Guardian"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "yorick-weaver-of-tales",
+        "card_url": "https://cardvault.fabtcg.com/card/yorick-weaver-of-tales",
+        "name": "Yorick, Weaver of Tales",
+        "life": 20,
+        "first_release_date": "2022-02-01",
+        "set": {
+            "code": "LSS",
+            "name": "Legend Story Studio Promos"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/LSS004-CF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/LSS004-CF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/LSS004-CF.webp"
+        },
+        "classes": [
+            "Bard"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "zane-broadly-beloved",
+        "card_url": "https://cardvault.fabtcg.com/card/zane-broadly-beloved",
+        "name": "Zane, Broadly Beloved",
+        "life": 20,
+        "first_release_date": "2026-10-30",
+        "set": {
+            "code": "SPW",
+            "name": "Smash Palace - Chorus of Steel"
+        },
+        "related_hero": null,
+        "group": null,
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/SPW003-RF.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/SPW003-RF.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/SPW003-RF.webp"
+        },
+        "classes": [
+            "Warrior"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "zen",
+        "card_url": "https://cardvault.fabtcg.com/card/zen",
+        "name": "Zen",
+        "life": 20,
+        "first_release_date": "2024-05-24",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": {
+            "id": "zen-tamer-of-purpose",
+            "name": "Zen, Tamer of Purpose",
+            "type": "young_of"
+        },
+        "group": "Zen",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST047.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST047.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST047.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "zen-tamer-of-purpose",
+        "card_url": "https://cardvault.fabtcg.com/card/zen-tamer-of-purpose",
+        "name": "Zen, Tamer of Purpose",
+        "life": 40,
+        "first_release_date": "2024-05-31",
+        "set": {
+            "code": "MST",
+            "name": "Part the Mistveil"
+        },
+        "related_hero": null,
+        "group": "Zen",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/MST046.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/MST046.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/MST046.webp"
+        },
+        "classes": [
+            "Ninja"
+        ],
+        "retirement_date": "April 25, 2025"
+    },
+    {
+        "id": "zyggy",
+        "card_url": "https://cardvault.fabtcg.com/card/zyggy",
+        "name": "Zyggy",
+        "life": 20,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "OMN",
+            "name": "Omens of the Third Age"
+        },
+        "related_hero": {
+            "id": "zyggy-starlight",
+            "name": "Zyggy Starlight",
+            "type": "young_of"
+        },
+        "group": "Zyggy",
+        "is_young": true,
+        "tags": [
+            "young"
+        ],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN002.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN002.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN002.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    },
+    {
+        "id": "zyggy-starlight",
+        "card_url": "https://cardvault.fabtcg.com/card/zyggy-starlight",
+        "name": "Zyggy Starlight",
+        "life": 40,
+        "first_release_date": "2026-06-05",
+        "set": {
+            "code": "AZS",
+            "name": "Armory Deck - Zyggy Starlight"
+        },
+        "related_hero": null,
+        "group": "Zyggy",
+        "is_young": false,
+        "tags": [],
+        "images": {
+            "small": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/small/OMN001.webp",
+            "normal": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/normal/OMN001.webp",
+            "large": "https://legendstory-production-s3-public.s3.amazonaws.com/media/cards/large/OMN001.webp"
+        },
+        "classes": [
+            "Illusionist"
+        ],
+        "retirement_date": null
+    }
+]
